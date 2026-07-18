@@ -1,0 +1,71 @@
+.dropdown-wrapper,
+    .layout-container,
+    .textbox-container {
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+
+    .layout-item {
+        padding: 10px;
+        margin: 5px;
+        background: #f3f3f3;
+        border: 1px solid #ddd;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+    }
+    
+body {
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .dark-mode {
+            background-color: #212529;
+            color: #ffffff;
+        }
+
+        .dark-mode .card {
+            background-color: #343a40;
+            color: #ffffff;
+            border-color: #495057;
+        }
+
+        .layout-item {
+            min-width: 120px;
+        }
+
+.layout-panel {
+    display: none;
+}
+
+.form-select[multiple] {
+    min-height: 250px;
+}
+
+.col-6 {
+    border: 2px solid red;
+}
+
+.list-box {
+    border: 1px solid var(--bs-border-color);
+    border-radius: .375rem;
+    padding: 1rem;
+    min-height: 150px;
+}
+
+#disclaimerCancellation {
+    min-height: 120px;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.dark-mode #disclaimerCancellation {
+    background-color: #495057;
+    color: #fff;
+}
+
+

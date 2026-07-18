@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dynamic Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+
+<body>
+    <!-- Dropdown -->
+
+    <div class="container py-4">
+
+        <!-- Header -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="mb-0">CSI Thingymajig</h2>
+
+            <button id="darkModeBtn" class="btn btn-outline-secondary">
+                🌙 Dark Mode
+            </button>
+        </div>
+
+        <!-- Dropdown Card -->
+        <div class="card shadow-sm mb-3">
+            <div class="card-body">
+                <label class="form-label fw-bold">
+                    Select Layout
+                </label>
+
+                <select id="layoutSelector" class="form-select">
+                    <option value="AddDependent">Add Dependent</option>
+                    <option value="RemoveDependent">Remove Dependent</option>
+                    <option value="Cancellation">Cancellation/Withdrawal</option>
+                    <option value="Reactivation">Reactivation/Reapplication</option>
+                    <option value="OneTimePayment">One-time Payment</option>
+                    <option value="UpdateCard">Update Debit or Credit Card</option>
+                    <option value="UpdateBank">Update Bank Account</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Layout Container -->
+        <div class="card shadow-sm mb-3">
+            <div class="card-header fw-bold">
+                Dynamic Container
+            </div>
+
+            <div class="card-body">
+
+                <!-- Cancellation Layout -->
+                <div id="layoutCancellation" class="layout-panel">
+
+                    <div class="row mb-3">
+
+                        <!-- Left List -->
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold">Cancel Plan(s)</label>
+
+                            <div class="border rounded p-2">
+
+                                <div class="form-check">
+                                    <input class="form-check-input paired-checkbox" type="checkbox" value="Medical"
+                                        id="aMedical">
+                                    <label class="form-check-label" for="aMedical">Medical</label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input paired-checkbox" type="checkbox" value="Dental"
+                                        id="aDental">
+                                    <label class="form-check-label" for="aDental">Dental</label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input paired-checkbox" type="checkbox" value="Vision"
+                                        id="aVision">
+                                    <label class="form-check-label" for="aVision">Vision</label>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Right List -->
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold">Keep Plan(s)</label>
+
+                            <div class="border rounded p-2">
+
+                                <div class="form-check">
+                                    <input class="form-check-input paired-checkbox" type="checkbox" value="Medical"
+                                        id="bMedical">
+                                    <label class="form-check-label" for="bMedical">Medical</label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input paired-checkbox" type="checkbox" value="Dental"
+                                        id="bDental">
+                                    <label class="form-check-label" for="bDental">Dental</label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input paired-checkbox" type="checkbox" value="Vision"
+                                        id="bVision">
+                                    <label class="form-check-label" for="bVision">Vision</label>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="row align-items-end mb-3">
+
+                        <div class="col-md-8">
+                            <label class="form-label fw-bold">Reason</label>
+
+                            <select id="reasonDropdown" class="form-select">
+                                <option value="">Select a reason...</option>
+                                <option value="GroupPlan">Other group/employer coverage</option>
+                                <option value="IndivPlan">Other individual insurance</option>
+                                <option value="Cost">Cost of policy</option>
+                                <option value="Benefits">Benefits not what expected</option>
+                                <option value="Other">Other</option>
+                            </select>
+
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="withdrawalCheckbox">
+                                <label class="form-check-label" for="withdrawalCheckbox">
+                                    Withdrawal?
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Retention Script -->
+                    <div>
+                        <label class="form-label fw-bold">Retention Script</label>
+                        <div id="disclaimerCancellation" class="p-3 rounded border">
+                        </div>
+                    </div>
+
+                    <!-- Cancellation/Withdrawal Disclaimer -->
+                    <div>
+                        <label class="form-label fw-bold">Disclaimer Script</label>
+                        <div id="disclaimerCancellation" class="p-3 rounded border">
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Renewal Layout -->
+                <div id="layoutRenewal" class="layout-panel" style="display:none;">
+                    ...
+                </div>
+
+                <!-- Upgrade Layout -->
+                <div id="layoutUpgrade" class="layout-panel" style="display:none;">
+                    ...
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Textbox Card -->
+        <div class="card shadow-sm">
+            <div class="card-header fw-bold">
+                Generated CSI
+            </div>
+
+            <div class="card-body">
+                <input type="text" class="form-control" placeholder="Enter text here...">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script src="js/processes/cancellation.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
