@@ -41,7 +41,7 @@
     },
 
     "Death": {
-        "title": "Due to Death",
+        "title": "Death",
         "retentionScript": "generate empathy message. proceed to disclaimer."
     }
 }

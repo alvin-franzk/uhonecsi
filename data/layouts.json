@@ -7,7 +7,7 @@
     {
         "id": "RemoveDependent",
         "title": "Remove Dependent",
-        "enabled": false
+        "enabled": true
     },
     {
         "id": "Cancellation",
