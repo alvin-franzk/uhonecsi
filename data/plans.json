@@ -1,0 +1,578 @@
+[
+    {
+        "id": "ACC_EXPENSE_GUARD",
+        "name": "Accident ExpenseGuard",
+        "shortName": "AEG",
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": true,
+            "states": [
+                "FL",
+                "IL",
+                "MS",
+                "MO"
+            ]
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511402"
+    },
+
+    {
+        "id": "ACC_PRO_GAP",
+        "name": "Accident ProGap",
+        "shortName": "APGAP",
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": true,
+            "states": [
+                "FL",
+                "IL",
+                "MS",
+                "MO"
+            ]
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511402"
+    },
+
+    {
+        "id": "ACC_PRO_GUARD",
+        "name": "Accident ProtectorGuard",
+        "shortName": "APGUARD",
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": true,
+            "states": [
+                "FL",
+                "IL",
+                "MS",
+                "MO"
+            ]
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511402"
+    },
+
+    {
+        "id": "ACC_SAFEGUARD",
+        "name": "Accident SafeGuard",
+        "shortName": "ASG",
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": false,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1481809"
+    },
+
+    {
+        "id": "ACC_WISE",
+        "name": "AccidentWise",
+        "shortName": "AW",
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": false,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {
+                "FL": 31,
+                "IL": 30
+            }
+        },
+        "KMArticle": "KM1717900"
+    },
+
+    {
+        "id": "ADVANTAGE_GUARD",
+        "name": "Advantage Guard (Hospital Indemnity)",
+        "shortName": "AG",
+        "productType": "Ancillary",
+        "needsForm": false,
+        "idCard": {
+            "required": false,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": -1,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1631751"
+    },
+
+    {
+        "id": "CRITICAL_GUARD",
+        "name": "Critical Guard",
+        "shortName": "CG",
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": false,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1631750"
+    },
+
+    {
+        "id": "CRITICAL_ILLNESS",
+        "name": "Critical Illness",
+        "shortName": "CI",
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": false,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 70,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511371"
+    },
+
+    {
+        "id": "DENTAL_1",
+        "name": "Dental Gen 1",
+        "shortName": "DEN1",
+        "productType": "Dental",
+        "needsForm": false,
+        "idCard": {
+            "required": true,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": -1,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511215"
+    },
+
+    {
+        "id": "DENTAL_2",
+        "name": "Dental Gen 2",
+        "shortName": "DEN2",
+        "productType": "Dental",
+        "needsForm": false,
+        "idCard": {
+            "required": true,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511533"
+    },
+
+    {
+        "id": "DENTAL_3",
+        "name": "Dental Gen 3",
+        "shortName": "DEN3",
+        "productType": "Dental",
+        "needsForm": false,
+        "idCard": {
+            "required": true,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511282"
+    },
+
+    {
+        "id": "DENTAL_SAVINGS",
+        "name": "Dental Savings",
+        "shortName": "DENSAVINGS",
+        "productType": "Dental",
+        "needsForm": false,
+        "idCard": {
+            "required": true,
+            "states": []
+        },
+        "waitingPeriod": 0,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1988853"
+    },
+
+    {
+        "id": "DENTAL_WISE",
+        "name": "DentalWise",
+        "shortName": "DENWISE",
+        "productType": "Dental",
+        "needsForm": false,
+        "idCard": {
+            "required": true,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {
+                "CT": 27,
+                "FL": 31,
+                "IL": 30,
+                "OH": 28
+            }
+        },
+        "KMArticle": "KM1643158"
+    },
+
+    {
+        "id": "DENTAL_WISE_MAX",
+        "name": "DentalWise Max",
+        "shortName": "DENWISEMAX",
+        "productType": "Dental",
+        "needsForm": false,
+        "idCard": {
+            "required": true,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {
+                "CT": 27,
+                "FL": 31,
+                "IL": 30,
+                "OH": 28
+            }
+        },
+        "KMArticle": "KM1643158"
+    },
+
+    {
+        "id": "DENTAL_VISION_HEARING",
+        "name": "Dental/Vision/Hearing (DVH)",
+        "shortName": "DVH",
+        "productType": "Dental",
+        "needsForm": false,
+        "idCard": {
+            "required": true,
+            "states": []
+        },
+        "waitingPeriod": -1,
+        "dependentAgeLimit": {
+            "default": -1,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1585202"
+    },
+
+    {
+        "id": "HPG_1",
+        "name": "Health ProtectorGuard Gen 1",
+        "shortName": "HPG1",
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": true,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1539276"
+    },
+
+    {
+        "id": "HPG_2",
+        "name": "Health ProtectorGuard Gen 2",
+        "shortName": "HPG2",
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": true,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511513"
+    },
+
+    {
+        "id": "HPG_3",
+        "name": "Health ProtectorGuard Gen 3",
+        "shortName": "HPG3",
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": true,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1510955"
+    },
+
+    {
+        "id": "HEALTHIEST_YOU",
+        "name": "HealthiestYou",
+        "shortName": "HY",
+        "productType": "Teladoc",
+        "needsForm": false,
+        "idCard": {
+            "required": true,
+            "states": []
+        },
+        "waitingPeriod": 0,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511349"
+    },
+
+    {
+        "id": "HOSPITAL_GUARD_GI",
+        "name": "Hospital Guard GI",
+        "shortName": "HGGI",
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": false,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511383"
+    },
+
+    {
+        "id": "HOSPITAL_SAFEGUARD_GI",
+        "name": "Hospital SafeGuard GI",
+        "shortName": "HSGGI",
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": true,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511383"
+    },
+
+    {
+        "id": "HOSPITAL_SAFEGUARD",
+        "name": "Hospital SafeGuard",
+        "shortName": "HSG",
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": false,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511357"
+    },
+
+    {
+        "id": "HOSPITAL_WISE",
+        "name": "HospitalWise",
+        "shortName": "HW",
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": false,
+            "states": []
+        },
+        "waitingPeriod": 60,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {
+                "FL": 31,
+                "IL": 30,
+                "UT": 0
+            }
+        },
+        "KMArticle": "KM1923751"
+    },
+
+    {
+        "id": "MIND_YOUR_HEALTH",
+        "name": "Mind Your Health",
+        "shortName": "MYH",
+        "productType": "Teladoc",
+        "needsForm": false,
+        "idCard": {
+            "required": false,
+            "states": []
+        },
+        "waitingPeriod": 0,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1785600"
+    },
+
+    {
+        "id": "NEW_BENEFITS",
+        "name": "New Benefits",
+        "shortName": "NB",
+        "productType": "Teladoc",
+        "needsForm": false,
+        "idCard": {
+            "required": true,
+            "states": []
+        },
+        "waitingPeriod": 0,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511550"
+    },
+
+    {
+        "id": "SHORT_TERM_7",
+        "name": "Short Term Gen 7",
+        "shortName": "STM7",
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": true,
+            "states": []
+        },
+        "waitingPeriod": 0,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1526551"
+    },
+
+    {
+        "id": "TERM_LIFE_SAFEGUARD",
+        "name": "Term Life SafeGuard",
+        "shortName": "TL",
+        "productType": "Ancillary",
+        "needsForm": false,
+        "idCard": {
+            "required": false,
+            "states": []
+        },
+        "waitingPeriod": 1095,
+        "dependentAgeLimit": {
+            "default": -1,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511551"
+    },
+
+    {
+        "id": "VISION_A",
+        "name": "Vision Plan A",
+        "shortName": "VISA",
+        "productType": "Vision",
+        "needsForm": true,
+        "idCard": {
+            "required": false,
+            "states": []
+        },
+        "waitingPeriod": 730,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511187"
+    },
+
+    {
+        "id": "VISION_B",
+        "name": "Vision Plan B",
+        "shortName": "VISB",
+        "productType": "Vision",
+        "needsForm": true,
+        "idCard": {
+            "required": false,
+            "states": []
+        },
+        "waitingPeriod": 730,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {}
+        },
+        "KMArticle": "KM1511187"
+    },
+
+    {
+        "id": "VISION_WISE",
+        "name": "VisionWise",
+        "shortName": "VISWISE",
+        "productType": "Vision",
+        "needsForm": true,
+        "idCard": {
+            "required": false,
+            "states": []
+        },
+        "waitingPeriod": 730,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {
+                "CT": 27,
+                "FL": 31,
+                "IL": 30,
+                "OH": 28
+            }
+        },
+        "KMArticle": "KM1701701"
+    }
+]

@@ -28,18 +28,10 @@
         <div class="card shadow-sm mb-3">
             <div class="card-body">
                 <label class="form-label fw-bold">
-                    Select Layout
+                    Select Process
                 </label>
 
-                <select id="layoutSelector" class="form-select">
-                    <option value="AddDependent">Add Dependent</option>
-                    <option value="RemoveDependent">Remove Dependent</option>
-                    <option value="Cancellation">Cancellation/Withdrawal</option>
-                    <option value="Reactivation">Reactivation/Reapplication</option>
-                    <option value="OneTimePayment">One-time Payment</option>
-                    <option value="UpdateCard">Update Debit or Credit Card</option>
-                    <option value="UpdateBank">Update Bank Account</option>
-                </select>
+                <select id="layoutSelector" class="form-select"></select>
             </div>
         </div>
 
@@ -56,77 +48,36 @@
 
                     <div class="row mb-3">
 
+                        <div class="col-12">
+                            <select id="cancelTypeFilter" class="form-select mb-2">
+                                <option value="All">All Products</option>
+                            </select>
+
+                            <input id="cancelSearch" class="form-control mb-3" type="text"
+                                placeholder="Search by name or short name...">
+                        </div>
+
                         <!-- Left List -->
                         <div class="col-md-6">
                             <label class="form-label fw-bold">Cancel Plan(s)</label>
 
-                            <div class="border rounded p-2">
-
-                                <div class="form-check">
-                                    <input class="form-check-input paired-checkbox" type="checkbox" value="Medical"
-                                        id="aMedical">
-                                    <label class="form-check-label" for="aMedical">Medical</label>
-                                </div>
-
-                                <div class="form-check">
-                                    <input class="form-check-input paired-checkbox" type="checkbox" value="Dental"
-                                        id="aDental">
-                                    <label class="form-check-label" for="aDental">Dental</label>
-                                </div>
-
-                                <div class="form-check">
-                                    <input class="form-check-input paired-checkbox" type="checkbox" value="Vision"
-                                        id="aVision">
-                                    <label class="form-check-label" for="aVision">Vision</label>
-                                </div>
-
-                            </div>
+                            <div id="planListA" class="plan-list"></div>
                         </div>
 
                         <!-- Right List -->
                         <div class="col-md-6">
                             <label class="form-label fw-bold">Keep Plan(s)</label>
 
-                            <div class="border rounded p-2">
-
-                                <div class="form-check">
-                                    <input class="form-check-input paired-checkbox" type="checkbox" value="Medical"
-                                        id="bMedical">
-                                    <label class="form-check-label" for="bMedical">Medical</label>
-                                </div>
-
-                                <div class="form-check">
-                                    <input class="form-check-input paired-checkbox" type="checkbox" value="Dental"
-                                        id="bDental">
-                                    <label class="form-check-label" for="bDental">Dental</label>
-                                </div>
-
-                                <div class="form-check">
-                                    <input class="form-check-input paired-checkbox" type="checkbox" value="Vision"
-                                        id="bVision">
-                                    <label class="form-check-label" for="bVision">Vision</label>
-                                </div>
-
-                            </div>
+                            <div id="planListB" class="plan-list"></div>
                         </div>
-
                     </div>
 
-
                     <div class="row align-items-end mb-3">
-
                         <div class="col-md-8">
                             <label class="form-label fw-bold">Reason</label>
 
                             <select id="reasonDropdown" class="form-select">
-                                <option value="">Select a reason...</option>
-                                <option value="GroupPlan">Other group/employer coverage</option>
-                                <option value="IndivPlan">Other individual insurance</option>
-                                <option value="Cost">Cost of policy</option>
-                                <option value="Benefits">Benefits not what expected</option>
-                                <option value="Other">Other</option>
                             </select>
-
                         </div>
 
                         <div class="col-md-4">
@@ -137,13 +88,12 @@
                                 </label>
                             </div>
                         </div>
-
                     </div>
 
                     <!-- Retention Script -->
                     <div>
                         <label class="form-label fw-bold">Retention Script</label>
-                        <div id="disclaimerCancellation" class="p-3 rounded border">
+                        <div id="retentionCancellation" class="p-3 rounded border">
                         </div>
                     </div>
 
@@ -154,10 +104,20 @@
                         </div>
                     </div>
 
+                    <div class="col-md-6">
+                        <!-- Empty column for alignment -->
+                    </div>
+
+                    <div class="text-center mb-3">
+                        <button id="clearPlansBtn" type="button" class="btn btn-outline-warning">
+                            Reset
+                        </button>
+                    </div>
+
                 </div>
 
                 <!-- Renewal Layout -->
-                <div id="layoutRenewal" class="layout-panel" style="display:none;">
+                <div id="layoutAddDependent" class="layout-panel" style="display:none;">
                     ...
                 </div>
 
@@ -184,7 +144,7 @@
 
     <script src="js/script.js"></script>
     <script src="js/darkmode.js"></script>
-    <script src="js/processes/cancellation.js"></script>
+    <script src="js/processes/cancellation/cancellation.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>

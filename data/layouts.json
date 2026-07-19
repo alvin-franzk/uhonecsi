@@ -1,0 +1,32 @@
+[
+    {
+        "id": "AddDependent",
+        "title": "Add Dependent",
+        "enabled": false
+    },
+    {
+        "id": "RemoveDependent",
+        "title": "Remove Dependent",
+        "enabled": false
+    },
+    {
+        "id": "Cancellation",
+        "title": "Cancellation/Withdrawal",
+        "enabled": true
+    },
+    {
+        "id": "Reactivation",
+        "title": "Reactivation/Reapplication",
+        "enabled": false
+    },
+    {
+        "id": "OneTimePayment",
+        "title": "One-time Payment",
+        "enabled": false
+    },
+    {
+        "id": "UpdatePaymentMethod",
+        "title": "Update Bank Account or Card",
+        "enabled": false
+    }
+]

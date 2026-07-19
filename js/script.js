@@ -1,18 +1,73 @@
-function showLayout(layoutName) {
-    document
-        .querySelectorAll(".layout-panel")
-        .forEach(panel => panel.style.display = "none");
+const layoutSelector =
+    document.getElementById("layoutSelector");
 
-    document
-        .getElementById("layout" + layoutName)
-        .style.display = "block";
+fetch("data/layouts.json")
+    .then(response => response.json())
+    .then(layouts => {
+        populateLayouts(layouts);
+        layoutSelector.addEventListener(
+            "change",
+            function () {
+                showLayout(this.value);
+            }
+        );
+        showLayout(layoutSelector.value);
+    })
+    .catch(error => {
+        console.error(
+            "Failed to load layouts:",
+            error
+        );
+    });
+
+function populateLayouts(layouts) {
+    layoutSelector.innerHTML = "";
+    layouts
+        .filter(layout => layout.enabled)
+        .forEach(layout => {
+            const panel =
+                document.getElementById(
+                    getLayoutId(layout.id)
+                );
+            if (!panel) {
+
+                console.warn(
+                    `Missing panel: ${getLayoutId(layout.id)}`
+                );
+                return;
+            }
+            layoutSelector.insertAdjacentHTML(
+                "beforeend",
+                `
+                <option value="${layout.id}">
+                    ${layout.title}
+                </option>
+                `
+            );
+        });
 }
 
-const layoutSelector = document.getElementById("layoutSelector");
+function showLayout(layoutId) {
+    document
+        .querySelectorAll(".layout-panel")
+        .forEach(panel => {
+            panel.style.display = "none";
+        });
+    const layout =
+        document.getElementById(
+            getLayoutId(layoutId)
+        );
+    if (!layout) {
+        console.warn(
+            `Layout not implemented yet: ${layoutId}`
+        );
+        return;
+    }
+    layout.style.display = "block";
+}
 
-layoutSelector.addEventListener("change", function() {
-    showLayout(this.value);
-});
 
-// Show initial layout
-showLayout(layoutSelector.value);
+function getLayoutId(layoutId) {
+    return `layout${layoutId}`;
+}
+
