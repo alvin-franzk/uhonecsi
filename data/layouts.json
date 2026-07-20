@@ -7,7 +7,7 @@
     {
         "id": "RemoveDependent",
         "title": "Remove Dependent",
-        "enabled": true
+        "enabled": false
     },
     {
         "id": "Cancellation",
@@ -22,7 +22,7 @@
     {
         "id": "BillingPayments",
         "title": "Billing & Payments",
-        "enabled": true
+        "enabled": false
     },
     {
         "id": "RefundCalc",

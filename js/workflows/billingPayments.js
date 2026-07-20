@@ -47,6 +47,26 @@ const draftDate =
     document.getElementById(
         "draftDate"
     );
+const paymentCardSection =
+    document.getElementById(
+        "paymentCardSection"
+    );
+
+const paymentBankSection =
+    document.getElementById(
+        "paymentBankSection"
+    );
+
+const oneTimeCardSection =
+    document.getElementById(
+        "oneTimeCardSection"
+    );
+
+const oneTimeBankSection =
+    document.getElementById(
+        "oneTimeBankSection"
+    );
+
 
 // DEFAULTS
 paidThroughDate.value =
@@ -54,8 +74,6 @@ paidThroughDate.value =
 
 draftDate.value = 2;
 
-cardSection.style.display =
-    "block";
 
 // layout function
 function updateBillingLayout() {
@@ -71,15 +89,12 @@ function updateBillingLayout() {
     paymentMethodContainer.style.display =
         "none";
 
-    cardSection.style.display =
-        "none";
-
-    bankSection.style.display =
-        "none";
+    hideAllDetailSections();
 
     switch (requestType) {
 
         case "paymentOnly":
+        case "oneTimePayment":
 
             detailsCardHeader.textContent =
                 "Payment Details";
@@ -103,7 +118,7 @@ function updateBillingLayout() {
             memberNameLabel.textContent =
                 "Cardholder Name";
 
-            cardSection.style.display =
+            paymentCardSection.style.display =
                 "block";
 
             break;
@@ -117,8 +132,10 @@ function updateBillingLayout() {
             memberNameLabel.textContent =
                 "Account Holder Name";
 
-            bankSection.style.display =
-                "block";
+            
+oneTimeBankSection.style.display =
+    "block";
+
 
             break;
 
@@ -134,7 +151,7 @@ function updateBillingLayout() {
             paymentSection.style.display =
                 "block";
 
-            cardSection.style.display =
+            paymentCardSection.style.display =
                 "block";
 
             break;
@@ -151,8 +168,10 @@ function updateBillingLayout() {
             paymentSection.style.display =
                 "block";
 
-            bankSection.style.display =
+
+            oneTimeBankSection.style.display =
                 "block";
+
 
             break;
 
@@ -160,42 +179,83 @@ function updateBillingLayout() {
 
 }
 
-// otp only
 function updatePaymentMethodLayout() {
 
+    hideAllDetailSections();
+
     if (
-        billingRequestType.value !==
+        billingRequestType.value ===
         "paymentOnly"
     ) {
+
+        if (
+            paymentMethod.value ===
+            "card"
+        ) {
+
+            memberNameLabel.textContent =
+                "Cardholder Name";
+
+            paymentCardSection.style.display =
+                "block";
+
+        } else {
+
+            memberNameLabel.textContent =
+                "Account Holder Name";
+
+            paymentBankSection.style.display =
+                "block";
+
+        }
+
         return;
     }
 
     if (
-        paymentMethod.value ===
-        "card"
+        billingRequestType.value ===
+        "oneTimePayment"
     ) {
 
-        memberNameLabel.textContent =
-            "Cardholder Name";
+        if (
+            paymentMethod.value ===
+            "card"
+        ) {
 
-        cardSection.style.display =
-            "block";
+            memberNameLabel.textContent =
+                "Cardholder Name";
 
-        bankSection.style.display =
-            "none";
+            oneTimeCardSection.style.display =
+                "block";
 
-    } else {
+        } else {
 
-        memberNameLabel.textContent =
-            "Account Holder Name";
+            memberNameLabel.textContent =
+                "Account Holder Name";
 
-        cardSection.style.display =
-            "none";
+            oneTimeBankSection.style.display =
+                "block";
 
-        bankSection.style.display =
-            "block";
+        }
 
     }
+
+}
+
+// helper
+function hideAllDetailSections() {
+
+    paymentCardSection.style.display =
+        "none";
+
+    paymentBankSection.style.display =
+        "none";
+
+    oneTimeCardSection.style.display =
+        "none";
+
+    oneTimeBankSection.style.display =
+        "none";
 
 }
 

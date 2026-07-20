@@ -235,17 +235,25 @@
                                         </label>
                                         <select id="billingRequestType" class="form-select">
                                             <option value="paymentOnly">
-                                                Payment Only / One-Time Payment
+                                                Payment Only
                                             </option>
+
+                                            <option value="oneTimePayment">
+                                                One-Time Payment
+                                            </option>
+
                                             <option value="updateCard">
                                                 Update Debit / Credit Card
                                             </option>
+
                                             <option value="updateBank">
                                                 Update Bank Account
                                             </option>
+
                                             <option value="paymentAndCard">
                                                 Payment + Update Debit / Credit Card
                                             </option>
+
                                             <option value="paymentAndBank">
                                                 Payment + Update Bank Account
                                             </option>
@@ -296,11 +304,13 @@
                                     Payment Details
                                 </div>
                                 <div class="card-body">
+
                                     <!-- Payment Method -->
                                     <div id="paymentMethodContainer" class="mb-3">
                                         <label for="paymentMethod" class="form-label fw-bold">
                                             Payment Method
                                         </label>
+
                                         <select id="paymentMethod" class="form-select">
                                             <option value="card">
                                                 Debit / Credit Card
@@ -310,38 +320,59 @@
                                             </option>
                                         </select>
                                     </div>
-                                    <!-- Shared Payment Fields -->
-                                    <div class="mb-3">
-                                        <label class="form-label">
-                                            Transaction Number
-                                        </label>
-                                        <input id="transactionNumber" type="text" class="form-control">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label">
-                                            Billing ZIP
-                                        </label>
-                                        <input id="billingZip" type="text" class="form-control">
-                                    </div>
 
-                                    <!-- Card Specific -->
-                                    <div id="cardSection">
-                                        <div class="mb-3">
-                                            <label class="form-label">
-                                                New Billing ID
-                                            </label>
-                                            <input id="billingId" type="text" class="form-control">
-                                        </div>
-                                    </div>
+                                    <!-- PAYMENT ONLY - CARD -->
+                                    <div id="paymentCardSection">
 
-                                    <!-- Bank Specific -->
-                                    <div id="bankSection">
                                         <div class="mb-3">
                                             <label class="form-label">
                                                 Payment ID
                                             </label>
-                                            <input id="bankPaymentId" type="text" class="form-control">
+                                            <input id="paymentCardId" type="text" class="form-control">
                                         </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">
+                                                Billing ZIP
+                                            </label>
+                                            <input id="paymentCardZip" type="text" class="form-control">
+                                        </div>
+
+                                    </div>
+
+                                    <!-- PAYMENT ONLY - BANK -->
+                                    <div id="paymentBankSection" style="display:none;">
+
+                                        <div class="mb-3">
+                                            <label class="form-label">
+                                                Payment ID
+                                            </label>
+                                            <input id="paymentBankId" type="text" class="form-control">
+                                        </div>
+
+                                    </div>
+
+                                    <!-- ONE TIME PAYMENT - CARD -->
+                                    <div id="oneTimeCardSection" style="display:none;">
+
+                                        <div class="mb-3">
+                                            <label class="form-label">
+                                                Transaction Number
+                                            </label>
+                                            <input id="otpTransactionNumber" type="text" class="form-control">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">
+                                                Billing ZIP
+                                            </label>
+                                            <input id="otpBillingZip" type="text" class="form-control">
+                                        </div>
+
+                                    </div>
+
+                                    <!-- ONE TIME PAYMENT / UPDATE BANK -->
+                                    <div id="oneTimeBankSection" style="display:none;">
 
                                         <div class="mb-3">
                                             <label class="form-label">
@@ -368,16 +399,20 @@
                                             <label class="form-label">
                                                 Account Type
                                             </label>
+
                                             <select id="accountType" class="form-select">
-                                                <option value="CHKNG" selected>
+                                                <option value="CHKNG">
                                                     Checking
                                                 </option>
+
                                                 <option value="SAV">
                                                     Savings
                                                 </option>
                                             </select>
                                         </div>
+
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -404,8 +439,8 @@
                             </button>
                         </div>
                     </div>
-
                 </div>
+
             </div>
         </div>
 
