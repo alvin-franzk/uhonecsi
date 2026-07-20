@@ -20,13 +20,13 @@
         "enabled": false
     },
     {
-        "id": "OneTimePayment",
-        "title": "One-time Payment",
-        "enabled": false
+        "id": "BillingPayments",
+        "title": "Billing & Payments",
+        "enabled": true
     },
     {
-        "id": "UpdatePaymentMethod",
-        "title": "Update Bank Account or Card",
-        "enabled": false
+        "id": "RefundCalc",
+        "title": "Refund Calculator",
+        "enabled": true
     }
 ]

@@ -78,6 +78,7 @@ input[type="text"] {
 /* =========================
    Retention and Disclaimer Script
 ========================= */
+
 .script-box {
     height: 250px;
     overflow-y: auto;
@@ -151,4 +152,21 @@ input[type="text"] {
 
 .plan-list::-webkit-scrollbar-track {
     background: transparent;
+}
+
+/* =========================
+   Refund Calculator
+========================= */
+
+.calculated-field {
+    background-color: #e9ecef;
+    color: #495057;
+    font-weight: 500;
+    cursor: default;
+}
+
+#proratedAmount {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    font-weight: 700;
 }
