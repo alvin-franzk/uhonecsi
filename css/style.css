@@ -7,6 +7,10 @@
     --surface-bg-alt: #f8f9fa;
     --surface-border: #dee2e6;
     --surface-text: #212529;
+
+    --table-bg: #ffffff;
+    --table-hover: #f8f9fa;
+
 }
 
 .dark-mode {
@@ -17,6 +21,10 @@
 
     background-color: #212529;
     color: #ffffff;
+
+    --table-bg: #495057;
+    --table-hover: #5c636a;
+
 }
 
 /* =========================
@@ -169,4 +177,141 @@ input[type="text"] {
     background-color: #d1e7dd;
     color: #0f5132;
     font-weight: 700;
+}
+
+/* =========================
+   Category Cards
+========================= */
+
+.category-card {
+    background-color: var(--surface-bg);
+    border: 1px solid var(--surface-border);
+    color: var(--surface-text);
+    height: 100%;
+}
+
+.category-card .card-title {
+    color: var(--surface-text);
+    padding-bottom: 0.5rem;
+}
+
+.category-card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* =========================
+   Contact Table
+========================= */
+
+.contact-table-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.category-card .table {
+    color: var(--surface-text);
+    margin-bottom: 0;
+
+    table-layout: fixed;
+    width: 100%;
+}
+
+.category-card .table td:first-child {
+    width: 65%;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.category-card .table td:last-child {
+    width: 35%;
+}
+
+.category-card .table td {
+    background-color: var(--table-bg);
+    color: var(--surface-text);
+    border-color: var(--surface-border);
+    overflow-wrap: break-word;
+}
+
+.category-card .table th {
+    background-color: transparent;
+    color: var(--surface-text);
+    border-color: var(--surface-border);
+}
+
+.copy-cell {
+    cursor: pointer;
+    user-select: none;
+    transition: all .15s ease;
+}
+
+.copy-cell:hover {
+    background-color: var(--table-hover) !important;
+}
+
+.copy-cell.copied {
+    background-color: #198754 !important;
+    color: white !important;
+}
+
+td:not(.copy-cell) {
+    cursor: default;
+    opacity: 0.8;
+}
+
+.copy-toast {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+
+    min-width: 220px;
+    text-align: center;
+
+    transform: translate(-50%, -10px) scale(0.9);
+
+    background-color: #198754;
+    color: white;
+
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+
+    font-size: 1rem;
+    font-weight: 500;
+
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .25);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: all 0.2s ease;
+
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.copy-toast.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, 0) scale(1);
+}
+
+.contact-table-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.contact-table-container::-webkit-scrollbar-track {
+    background: var(--surface-bg);
+}
+
+.contact-table-container::-webkit-scrollbar-thumb {
+    background: var(--surface-border);
+    border-radius: 4px;
+}
+
+.contact-table-container::-webkit-scrollbar-thumb:hover {
+    background: #888;
 }

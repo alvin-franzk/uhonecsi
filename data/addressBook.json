@@ -1,0 +1,512 @@
+{
+    "categories": [
+        {
+            "name": "Frequently Used",
+            "contacts": [
+                {
+                    "name": "UHC Dental",
+                    "number": "1-877-816-3596",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "UHC Vision",
+                    "number": "1-800-638-3120",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Claims & Benefits",
+                    "number": "UHO_FACETS_CLAIMS",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ],
+                    "copyable": false
+                },
+                {
+                    "name": "Mainframe Admin",
+                    "number": "UHO_MF_ADMIN",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ],
+                    "copyable": false
+                },
+                {
+                    "name": "Mainframe Claims",
+                    "number": "UHO_MF_CLAIMS",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ],
+                    "copyable": false
+                },
+                {
+                    "name": "Golden Rule Insurance Co. (GRIC)",
+                    "number": "1-800-657-8205",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Agency Sales",
+                    "number": " 1-800-444-8990",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Spanish Interpreter",
+                    "number": "1-844-948-3151",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Underwriting Communications (UDW)",
+                    "number": "1-800-307-4217",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Marketplace Customer Service",
+            "contacts": [
+                {
+                    "name": "AL (Alabama)",
+                    "number": "1-888-200-0327",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "AZ (Arizona)",
+                    "number": "1-877-482-9045"
+                },
+                {
+                    "name": "CO (Colorado)",
+                    "number": "1-866-487-9304"
+                },
+                {
+                    "name": "FL (Florida)",
+                    "number": "1-888-200-0405"
+                },
+                {
+                    "name": "GA (Georgia)",
+                    "number": "1-800-609-9754"
+                },
+                {
+                    "name": "IL (Illinois)",
+                    "number": "1-888-200-0325"
+                },
+                {
+                    "name": "LA (Louisiana)",
+                    "number": "1-866-268-6438"
+                },
+                {
+                    "name": "MD (Maryland)",
+                    "number": "1-800-691-0021"
+                },
+                {
+                    "name": "MI (Michigan)",
+                    "number": "1-888-200-0324"
+                },
+                {
+                    "name": "NC (North Carolina)",
+                    "number": "1-800-980-5357"
+                },
+                {
+                    "name": "OK (Oklahoma)",
+                    "number": "1-800-980-5319"
+                },
+                {
+                    "name": "TN (Tennessee)",
+                    "number": "1-877-250-8188"
+                },
+                {
+                    "name": "TX (Texas)",
+                    "number": "1-866-811-2704"
+                },
+                {
+                    "name": "VA (Virginia)",
+                    "number": "1-877-265-9199"
+                },
+                {
+                    "name": "WA (Washington)",
+                    "number": "1-888-832-0969"
+                },
+                {
+                    "name": "General Phone No.",
+                    "number": "1-800-318-2596"
+                }
+            ]
+        },
+        {
+            "name": "UnitedHealthGroup Contacts",
+            "contacts": [
+                {
+                    "name": "AARP Medicare UHC",
+                    "number": "1-800-523-5800",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "All Savers/UHOPS (Client Services)",
+                    "number": "1-800-291-2634",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Allstate Health",
+                    "number": "1-888-781-0585",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "AmBetter",
+                    "number": "1-877-687-1182",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Blue Cross Blue Shield",
+                    "number": "1-800-411-2583",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Broker Services",
+                    "number": "1-800-474-4467",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Cigna Healthcare",
+                    "number": "1-800-828-3485",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Chesapeake Life Insurance Co. (CLICO)",
+                    "number": "1-800-815-8535",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "COBRA Insurance",
+                    "number": "1-866-747-0048",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Community Plan/State Coverage UHC",
+                    "number": "1-866-673-6255",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "CountyCare",
+                    "number": "855-444-1661",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Dual Medicare & Medicaid",
+                    "number": "1-855-690-0192",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Duke Energy (Retirement Plan)",
+                    "number": "1-877-298-2305",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "HealthSherpa (UHC Bronze Value)",
+                    "number": "1-855-772-2663",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Humana Individial Dental and Vision",
+                    "number": "1-877-877-1051",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Health Care Fraud Tip Line",
+                    "number": "1-844-359-7736",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Medicaid UHC",
+                    "number": "1-866-673-6255",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Medicaid Original",
+                    "number": "1-877-267-2323",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Medicare UHC",
+                    "number": "1-877-629-3617",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Medicare Original",
+                    "number": "1-800-633-4227",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Medicare Advantage (UCard)",
+                    "number": "1-800-643-4845",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Tricare/Military Coverage",
+                    "number": "1-800-538-9552",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "NEO Insurance",
+                    "number": "1-866-870-7730",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "New AARP UHC Customers",
+                    "number": "1-800-272-2146",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Optum Perks",
+                    "number": "1-866-407-8901",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Rocky Mountain Health Plans",
+                    "number": "1-855-830-1562",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Student Resources",
+                    "number": "1-800-767-0700",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "UHC Complete Care",
+                    "number": "1-800-297-0259",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "UHC Employer Coverage (More than 100)",
+                    "number": "1-866-527-9597",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "UHC Employer Coverage (Less than 100)",
+                    "number": "1-800-357-0978",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "UMR Member",
+                    "number": "1-877-233-1800",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "UMR Provider",
+                    "number": "1-877-233-1800",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "UnitedHealthCare (UHC)",
+                    "number": "1-877-842-3210",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "USHealth/Freedom Life",
+                    "number": "1-866-722-8744",
+                    "keywords": [
+                        "all savers",
+                        "uhops",
+                        "client services"
+                    ]
+                },
+                {
+                    "name": "Wellabe",
+                    "number": "1-800-228-6080"
+                }
+            ]
+        },
+        {
+            "name": "Teladocs Customer Service",
+            "contacts": [
+                {
+                    "name": "HealthiestYou",
+                    "number": "1-866-703-1259"
+                },
+                {
+                    "name": "New Benefits",
+                    "number": "1-800-800-7616"
+                },
+                {
+                    "name": "Mind Your Health",
+                    "number": "1-800-835-2362"
+                }
+            ]
+        },
+        {
+            "name": "Other",
+            "contacts": [
+                {
+                    "name": "HSID L1.5",
+                    "number": "1-888-651-7261"
+                },
+                {
+                    "name": "CAA Tech Support",
+                    "number": "1-800-915-1680"
+                }
+            ]
+        }
+    ]
+}

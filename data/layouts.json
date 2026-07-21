@@ -1,5 +1,10 @@
 [
     {
+        "id": "AddressBook",
+        "title": "Address Book",
+        "enabled": true
+    },
+    {
         "id": "AddDependent",
         "title": "Add Dependent",
         "enabled": false
@@ -22,6 +27,16 @@
     {
         "id": "BillingPayments",
         "title": "Billing & Payments",
+        "enabled": false
+    },
+    {
+        "id": "EmailTemplates",
+        "title": "Email Templates",
+        "enabled": false
+    },
+    {
+        "id": "OtherCSI",
+        "title": "Other",
         "enabled": false
     },
     {
