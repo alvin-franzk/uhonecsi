@@ -1,11 +1,44 @@
+let addressBookData;
+
 fetch("data/addressBook.json")
     .then(response => response.json())
     .then(data => {
+        addressBookData = data;
         renderCategories(data);
     })
     .catch(error => {
         console.error("Failed to load Address Book:", error);
     });
+
+function filterContacts(data, searchText) {
+
+    const query = searchText.trim().toLowerCase();
+
+    if (!query) {
+        return data;
+    }
+
+    return {
+        categories: data.categories
+            .map(category => ({
+                ...category,
+                contacts: category.contacts.filter(contact => {
+
+                    const searchableText = [
+                        contact.name,
+                        contact.number,
+                        ...(contact.keywords || [])
+                    ]
+                        .join(" ")
+                        .toLowerCase();
+
+                    return searchableText.includes(query);
+
+                })
+            }))
+            .filter(category => category.contacts.length > 0)
+    };
+}
 
 function renderCategories(data) {
     const container = document.getElementById("categoriesContainer");
@@ -14,7 +47,7 @@ function renderCategories(data) {
         <div class="row g-3">
             ${data.categories.map(category => `
                 <div class="col-lg-6">
-                    <div class="card category-card h-100">
+                    <div class="card category-card">
                         <div class="card-body">
                             <h4 class="card-title mb-3">
                                 ${category.name}
@@ -76,3 +109,17 @@ document.addEventListener("click", async (e) => {
     }
 
 });
+
+document
+    .getElementById("contactSearch")
+    .addEventListener("input", function () {
+
+        const filteredData =
+            filterContacts(
+                addressBookData,
+                this.value
+            );
+
+        renderCategories(filteredData);
+
+    });

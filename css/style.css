@@ -187,7 +187,6 @@ input[type="text"] {
     background-color: var(--surface-bg);
     border: 1px solid var(--surface-border);
     color: var(--surface-text);
-    height: 100%;
 }
 
 .category-card .card-title {
