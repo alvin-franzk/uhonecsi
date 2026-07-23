@@ -1,0 +1,40 @@
+{
+    "templates": [
+        {
+            "id": "general",
+            "subject": "General",
+            "emailSubjectLine": "Follow-Up Regarding Your Request | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nPlease see attached file(s).\n\nPlease do not reply to this message, as it was sent from a 'no-reply' mailbox. If you have any questions or need assistance, please call us at 1-800-657-8205."
+        },
+        {
+            "id": "idCardGeneral",
+            "subject": "ID Card Request",
+            "emailSubjectLine": "Digital ID Card | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nAs requested, a copy of your digital ID card for your {planName} is attached to this email for your convenience.\n\nPlease review the information on the ID card to ensure it is accurate. You may print the card or save it to your mobile device for easy access when receiving healthcare services.\n\nPlease do not reply to this message, as it was sent from a 'no-reply' mailbox. If you have any questions or need assistance, please call us at 1-800-657-8205."
+        },
+        {
+            "id": "dependentAdd",
+            "subject": "Add Dependent",
+            "emailSubjectLine": "Dependent Enrollment Form | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nPlease find attached the form that you need to fill out to add your dependent(s) to your {planName}. After completing the form, please submit it by mail or fax using the information provided below: \nConstituent Services\nPO Box 31343\nSalt Lake City, UT 84131-0372\nFax Number: 1-801-478-5461\n\nPlease do not reply to this message, as it was sent from a 'no-reply' mailbox. If you have any questions or need assistance, please call us at 1-800-657-8205."
+        },
+        {
+            "id": "idCardHPG",
+            "subject": "ID Card Request - Health ProtectorGuard",
+            "emailSubjectLine": "Health ProtectorGuard Digital ID Card | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nAs requested, a copy of your digital ID card for your {planName} is attached to this email for your convenience.\n\nAs part of your {planName} plan, you also receive access to an Optum Perks prescription discount card, which is typically mailed separately. If you would like a digital copy, you can obtain one online by visiting https://perks.optum.com/uho and sending the card directly to your mobile device.\n\nTo take advantage of your prescription savings, please present both your ID card and your Optum Perks discount card at the pharmacy. If your plan includes eligible prescription benefits, presenting the Optum Perks card will automatically initiate the claims process for reimbursement under your plan, eliminating the need to submit a separate claim.\n\nIf you have any questions regarding your Optum Perks prescription discount card, please contact Optum Perks Customer Support at 1-866-407-8901 for assistance.\n\nPlease do not reply to this message, as it was sent from a 'no-reply' mailbox. If you have any questions or need assistance, please call us at 1-800-657-8205."
+        },
+        {
+            "id": "idCardDental",
+            "subject": "ID Card Request - Dental",
+            "emailSubjectLine": "Dental Digital ID Card | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nAs requested, a copy of your digital ID card for your {planName} is attached to this email for your convenience.\n\nPlease review the information on the ID card to ensure it is accurate. You may print the card or save it to your mobile device for easy access when receiving healthcare services.\n\nFor questions regarding claims or benefits related to your dental policy, please contact UnitedHealthcare Dental Customer Service at 1-877-816-3596.\n\nPlease do not reply to this message, as it was sent from a 'no-reply' mailbox. If you have any questions or need assistance, please call us at 1-800-657-8205."
+        },
+        {
+            "id": "reinstatePol",
+            "subject": "Reinstatement",
+            "emailSubjectLine": "Plan Enrollment Form | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nPlease find attached the form to reinstate your {planName}. After completing the form, please submit it by mail or fax using the information provided below: \nConstituent Services\nPO Box 31343\nSalt Lake City, UT 84131-0372\nFax Number: 1-801-478-5461\n\nPlease do not reply to this message, as it was sent from a 'no-reply' mailbox. If you have any questions or need assistance, please call us at 1-800-657-8205."
+        }
+    ]
+}

@@ -32,7 +32,7 @@
     {
         "id": "EmailTemplates",
         "title": "Email Templates",
-        "enabled": false
+        "enabled": true
     },
     {
         "id": "OtherCSI",

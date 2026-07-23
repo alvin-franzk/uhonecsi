@@ -22,6 +22,35 @@
                     ]
                 },
                 {
+                    "name": "Golden Rule Insurance Co. (GRIC)",
+                    "number": "1-800-657-8205",
+                    "keywords": [
+                        "gric",
+                        "golden rule insurance company"
+                    ]
+                },
+                {
+                    "name": "Agency Sales",
+                    "number": " 1-800-444-8990",
+                    "keywords": [
+                        "sales dpt"
+                    ]
+                },
+                {
+                    "name": "Spanish Interpreter",
+                    "number": "1-844-948-3151",
+                    "keywords": [
+                        "translate"
+                    ]
+                },
+                {
+                    "name": "Underwriting Communications (UDW)",
+                    "number": "1-800-307-4217",
+                    "keywords": [
+                        "uwc"
+                    ]
+                },
+                {
                     "name": "Claims & Benefits",
                     "number": "UHO_FACETS_CLAIMS",
                     "keywords": [
@@ -47,33 +76,6 @@
                         "mf claims"
                     ],
                     "copyable": false
-                },
-                {
-                    "name": "Golden Rule Insurance Co. (GRIC)",
-                    "number": "1-800-657-8205",
-                    "keywords": [
-                        "gric",
-                        "golden rule insurance company"
-                    ]
-                },
-                {
-                    "name": "Agency Sales",
-                    "number": " 1-800-444-8990",
-                    "keywords": [
-                        "sales dpt"
-                    ]
-                },
-                {
-                    "name": "Spanish Interpreter",
-                    "number": "1-844-948-3151",
-                    "keywords": [
-                        "translate"
-                    ]
-                },
-                {
-                    "name": "Underwriting Communications (UDW)",
-                    "number": "1-800-307-4217",
-                    "keywords": []
                 }
             ]
         },
@@ -279,6 +281,11 @@
                     "keywords": []
                 },
                 {
+                    "name": "Globe Life Insurance",
+                    "number": "1-844-726-4372",
+                    "keywords": []
+                },
+                {
                     "name": "HealthSherpa (UHC Bronze Value)",
                     "number": "1-855-772-2663",
                     "keywords": []
@@ -348,6 +355,13 @@
                     "name": "Optum Perks",
                     "number": "1-866-407-8901",
                     "keywords": []
+                },
+                {
+                    "name": "PacifiCare Insurance of California",
+                    "number": "1-800-624-8822",
+                    "keywords": [
+                        "ucnet"
+                    ]
                 },
                 {
                     "name": "Rocky Mountain Health Plans",

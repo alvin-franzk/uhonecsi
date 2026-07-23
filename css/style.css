@@ -5,12 +5,11 @@
 :root {
     --surface-bg: #ffffff;
     --surface-bg-alt: #f8f9fa;
-    --surface-border: #dee2e6;
+    --surface-border: #838383;
     --surface-text: #212529;
 
     --table-bg: #ffffff;
-    --table-hover: #f8f9fa;
-
+    --table-hover: #e0e0e0;
 }
 
 .dark-mode {
@@ -35,6 +34,7 @@ body {
     transition:
         background-color 0.3s,
         color 0.3s;
+        background-color: #8bafd3;
 }
 
 .dropdown-wrapper,
@@ -81,8 +81,28 @@ body {
 input[type="text"] {
     width: 100%;
     padding: 8px;
+    border: 1px solid var(--surface-border);
 }
 
+#layoutSelector {
+    border: 1px solid var(--surface-border);
+}
+#darkModeBtn {
+    border-color: var(--surface-border);
+    color: var(--surface-text);
+}
+
+#darkModeBtn:hover {
+    border-color: var(--surface-border);
+    background-color: var(--surface-border);
+    color: #fff;
+}
+
+#darkModeBtn:focus,
+#darkModeBtn:active {
+    border-color: var(--surface-border);
+    box-shadow: 0 0 0 0.25rem rgba(131, 131, 131, 0.25);
+}
 /* =========================
    Retention and Disclaimer Script
 ========================= */
