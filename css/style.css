@@ -34,7 +34,7 @@ body {
     transition:
         background-color 0.3s,
         color 0.3s;
-        background-color: #8bafd3;
+    background-color: #8bafd3;
 }
 
 .dropdown-wrapper,
@@ -87,6 +87,7 @@ input[type="text"] {
 #layoutSelector {
     border: 1px solid var(--surface-border);
 }
+
 #darkModeBtn {
     border-color: var(--surface-border);
     color: var(--surface-text);
@@ -98,11 +99,23 @@ input[type="text"] {
     color: #fff;
 }
 
+/* =========================
+   Form Controls
+========================= */
+.form-select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23838383' d='M2 5l6 6 6-6' stroke='%23838383' stroke-width='2'/%3E%3C/svg%3E");
+    background-size: 18px;
+}
+.form-select:focus {
+    border-color: var(--surface-border);
+    box-shadow: #daedff;
+}
 #darkModeBtn:focus,
 #darkModeBtn:active {
     border-color: var(--surface-border);
     box-shadow: 0 0 0 0.25rem rgba(131, 131, 131, 0.25);
 }
+
 /* =========================
    Retention and Disclaimer Script
 ========================= */

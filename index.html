@@ -13,12 +13,11 @@
 
 <body>
     <!-- Dropdown -->
-
     <div class="container-md py-4">
 
         <!-- Header -->
         <div class="d-flex justify-content-between align-items-center mb-4">
-            <h2 class="mb-0">CSI Thingymajig v1.0.2</h2>
+            <h2 class="mb-0">CAA Helper v1.0.3</h2>
 
             <button id="darkModeBtn" class="btn btn-outline-secondary">
                 🌙 Dark Mode
@@ -604,7 +603,70 @@
                         Copy Email
                     </button>
                 </div>
+
+                <!-- Add Dependent Layout -->
+                <div id="layoutAddDependent" class="layout-panel">
+                    <div class="row">
+                        <!-- Left Side -->
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold">
+                                Plan(s) to Add Dependent
+                            </label>
+                            <select id="addDepTypeFilter" class="form-select mb-2">
+                                <option value="All">All Products</option>
+                            </select>
+
+                            <input id="addDepSearch" class="form-control mb-3" type="text"
+                                placeholder="Search by name or short name...">
+                            <div id="addDepPlanListA" class="plan-list"></div>
+                        </div>
+
+                        <!-- Right Side -->
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="addDepName" class="form-label">Member Name</label>
+                                <input id="addDepName" type="text" class="form-control" placeholder="Enter member name">
+
+                                <label for="addDepDOB" class="form-label mt-2">Date of Birth</label>
+                                <input type="date" id="addDepDOB" class="form-control">
+
+                                <label for="addDepAge" class="form-label mt-2">Age</label>
+                                <input id="addDepAge" type="number" class="form-control"
+                                    placeholder="Enter dependent age">
+
+                                <label for="addDepRelationship" class="form-label mt-2">Relationship</label>
+                                <input id="addDepRelationship" type="text" class="form-control"
+                                    placeholder="Enter dependent relationship">
+
+                                <label for="addDepEffectiveDate" class="form-label mt-2">Effective Date</label>
+                                <input type="date" id="addDepEffectiveDate" class="form-control">
+                            </div>
+                        </div>
+
+                        <!-- Clipboard and Reset Button -->
+                        <div class="row mt-3 align-items-center">
+                            <div class="col-4">
+                                <!-- Empty middle column -->
+                            </div>
+
+                            <div class="col-4 text-center">
+
+                                <button id="addDepcopyCSIBtn" type="button" class="btn btn-outline-primary">
+                                    Copy to Clipboard
+                                </button>
+                            </div>
+
+                            <div class="col-4 text-end">
+                                <button id="addDepclearPlansBtn" type="button" class="btn btn-outline-warning">
+                                    Reset
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
         </div>
 
     </div>
@@ -619,6 +681,7 @@
     <script src="js/workflows/billingPayments.js"></script>
     <script src="js/workflows/addressBook.js"></script>
     <script src="js/workflows/emailTemplates.js"></script>
+    <script src="js/workflows/addDependent.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>

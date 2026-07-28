@@ -25,8 +25,8 @@
                     "name": "Golden Rule Insurance Co. (GRIC)",
                     "number": "1-800-657-8205",
                     "keywords": [
-                        "gric",
-                        "golden rule insurance company"
+                        "company",
+                        "uhone"
                     ]
                 },
                 {
@@ -40,7 +40,8 @@
                     "name": "Spanish Interpreter",
                     "number": "1-844-948-3151",
                     "keywords": [
-                        "translate"
+                        "translate",
+                        "esp"
                     ]
                 },
                 {
@@ -57,7 +58,8 @@
                         "facets claims",
                         "facets benefits",
                         "claims and benefits",
-                        "cnb"
+                        "cnb",
+                        "uhone"
                     ],
                     "copyable": false
                 },
@@ -65,7 +67,8 @@
                     "name": "Mainframe Admin",
                     "number": "UHO_MF_ADMIN",
                     "keywords": [
-                        "mf admin"
+                        "mf admin",
+                        "uhone"
                     ],
                     "copyable": false
                 },
@@ -73,7 +76,8 @@
                     "name": "Mainframe Claims",
                     "number": "UHO_MF_CLAIMS",
                     "keywords": [
-                        "mf claims"
+                        "mf claims",
+                        "uhone"
                     ],
                     "copyable": false
                 }
@@ -391,6 +395,11 @@
                 {
                     "name": "UHC Employer Coverage (Less than 100)",
                     "number": "1-800-357-0978",
+                    "keywords": []
+                },
+                {
+                    "name": "UHC Hearing",
+                    "number": "1-866-926-6632",
                     "keywords": []
                 },
                 {

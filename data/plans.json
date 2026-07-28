@@ -2,7 +2,10 @@
     {
         "id": "ACC_EXPENSE_GUARD",
         "name": "Accident ExpenseGuard",
-        "shortName": "AEG",
+        "keywords": [
+            "aeg",
+            "accexpense"
+        ],
         "productType": "Ancillary",
         "needsForm": true,
         "idCard": {
@@ -25,7 +28,10 @@
     {
         "id": "ACC_PRO_GAP",
         "name": "Accident ProGap",
-        "shortName": "APGAP",
+        "keywords": [
+            "apg",
+            "accprogap"
+        ],
         "productType": "Ancillary",
         "needsForm": true,
         "idCard": {
@@ -48,7 +54,11 @@
     {
         "id": "ACC_PRO_GUARD",
         "name": "Accident ProtectorGuard",
-        "shortName": "APGUARD",
+        "keywords": [
+            "apg",
+            "accproguard",
+            "accprotector"
+        ],
         "productType": "Ancillary",
         "needsForm": true,
         "idCard": {
@@ -71,7 +81,10 @@
     {
         "id": "ACC_SAFEGUARD",
         "name": "Accident SafeGuard",
-        "shortName": "ASG",
+        "keywords": [
+            "asg",
+            "accsafe"
+        ],
         "productType": "Ancillary",
         "needsForm": true,
         "idCard": {
@@ -89,7 +102,10 @@
     {
         "id": "ACC_WISE",
         "name": "AccidentWise",
-        "shortName": "AW",
+        "keywords": [
+            "aw",
+            "accwise"
+        ],
         "productType": "Ancillary",
         "needsForm": true,
         "idCard": {
@@ -110,7 +126,12 @@
     {
         "id": "ADVANTAGE_GUARD",
         "name": "Advantage Guard (Hospital Indemnity)",
-        "shortName": "AG",
+        "keywords": [
+            "ag",
+            "advguard",
+            "hi",
+            "hospindem"
+        ],
         "productType": "Ancillary",
         "needsForm": false,
         "idCard": {
@@ -128,7 +149,10 @@
     {
         "id": "CRITICAL_GUARD",
         "name": "Critical Guard",
-        "shortName": "CG",
+        "keywords": [
+            "cg",
+            "critguard"
+        ],
         "productType": "Ancillary",
         "needsForm": true,
         "idCard": {
@@ -146,7 +170,10 @@
     {
         "id": "CRITICAL_ILLNESS",
         "name": "Critical Illness",
-        "shortName": "CI",
+        "keywords": [
+            "ci",
+            "critill"
+        ],
         "productType": "Ancillary",
         "needsForm": true,
         "idCard": {
@@ -164,7 +191,12 @@
     {
         "id": "DENTAL_1",
         "name": "Dental Gen 1",
-        "shortName": "DEN1",
+        "keywords": [
+            "d1",
+            "dn1",
+            "den1",
+            "dental1"
+        ],
         "productType": "Dental",
         "needsForm": false,
         "idCard": {
@@ -182,7 +214,12 @@
     {
         "id": "DENTAL_2",
         "name": "Dental Gen 2",
-        "shortName": "DEN2",
+        "keywords": [
+            "d2",
+            "dn2",
+            "den2",
+            "dental2"
+        ],
         "productType": "Dental",
         "needsForm": false,
         "idCard": {
@@ -200,7 +237,12 @@
     {
         "id": "DENTAL_3",
         "name": "Dental Gen 3",
-        "shortName": "DEN3",
+        "keywords": [
+            "d3",
+            "dn3",
+            "den3",
+            "dental3"
+        ],
         "productType": "Dental",
         "needsForm": false,
         "idCard": {
@@ -218,7 +260,11 @@
     {
         "id": "DENTAL_SAVINGS",
         "name": "Dental Savings",
-        "shortName": "DENSAVINGS",
+        "keywords": [
+            "ds",
+            "dnsavings",
+            "densavings"
+        ],
         "productType": "Dental",
         "needsForm": false,
         "idCard": {
@@ -236,7 +282,11 @@
     {
         "id": "DENTAL_WISE",
         "name": "DentalWise",
-        "shortName": "DENWISE",
+        "keywords": [
+            "dw",
+            "dwise",
+            "denwise"
+        ],
         "productType": "Dental",
         "needsForm": false,
         "idCard": {
@@ -259,7 +309,11 @@
     {
         "id": "DENTAL_WISE_MAX",
         "name": "DentalWise Max",
-        "shortName": "DENWISEMAX",
+        "keywords": [
+            "dwm",
+            "dwisemax",
+            "denwisemax"
+        ],
         "productType": "Dental",
         "needsForm": false,
         "idCard": {
@@ -282,7 +336,10 @@
     {
         "id": "DENTAL_VISION_HEARING",
         "name": "Dental/Vision/Hearing (DVH)",
-        "shortName": "DVH",
+        "keywords": [
+            "dvh",
+            "denvishear"
+        ],
         "productType": "Dental",
         "needsForm": false,
         "idCard": {
@@ -300,7 +357,9 @@
     {
         "id": "HPG_1",
         "name": "Health ProtectorGuard Gen 1",
-        "shortName": "HPG1",
+        "keywords": [
+            "hpg1"
+        ],
         "productType": "Ancillary",
         "needsForm": true,
         "idCard": {
@@ -318,7 +377,9 @@
     {
         "id": "HPG_2",
         "name": "Health ProtectorGuard Gen 2",
-        "shortName": "HPG2",
+        "keywords": [
+            "hpg2"
+        ],
         "productType": "Ancillary",
         "needsForm": true,
         "idCard": {
@@ -336,7 +397,9 @@
     {
         "id": "HPG_3",
         "name": "Health ProtectorGuard Gen 3",
-        "shortName": "HPG3",
+        "keywords": [
+            "hpg3"
+        ],
         "productType": "Ancillary",
         "needsForm": true,
         "idCard": {
@@ -354,7 +417,10 @@
     {
         "id": "HEALTHIEST_YOU",
         "name": "HealthiestYou",
-        "shortName": "HY",
+        "keywords": [
+            "hy",
+            "healthyou"
+        ],
         "productType": "Teladoc",
         "needsForm": false,
         "idCard": {
@@ -372,7 +438,10 @@
     {
         "id": "HOSPITAL_GUARD_GI",
         "name": "Hospital Guard GI",
-        "shortName": "HGGI",
+        "keywords": [
+            "hggi",
+            "hospiguardgi"
+        ],
         "productType": "Ancillary",
         "needsForm": true,
         "idCard": {
@@ -390,7 +459,10 @@
     {
         "id": "HOSPITAL_SAFEGUARD_GI",
         "name": "Hospital SafeGuard GI",
-        "shortName": "HSGGI",
+        "keywords": [
+            "hsggi",
+            "hospisafeguardgi"
+        ],
         "productType": "Ancillary",
         "needsForm": true,
         "idCard": {
@@ -408,7 +480,10 @@
     {
         "id": "HOSPITAL_SAFEGUARD",
         "name": "Hospital SafeGuard",
-        "shortName": "HSG",
+        "keywords": [
+            "hsg",
+            "hospisafeguard"
+        ],
         "productType": "Ancillary",
         "needsForm": true,
         "idCard": {
@@ -426,7 +501,10 @@
     {
         "id": "HOSPITAL_WISE",
         "name": "HospitalWise",
-        "shortName": "HW",
+        "keywords": [
+            "hw",
+            "hospiwise"
+        ],
         "productType": "Ancillary",
         "needsForm": true,
         "idCard": {
@@ -448,7 +526,10 @@
     {
         "id": "MIND_YOUR_HEALTH",
         "name": "Mind Your Health",
-        "shortName": "MYH",
+        "keywords": [
+            "myh",
+            "mental"
+        ],
         "productType": "Teladoc",
         "needsForm": false,
         "idCard": {
@@ -466,7 +547,10 @@
     {
         "id": "NEW_BENEFITS",
         "name": "New Benefits",
-        "shortName": "NB",
+        "keywords": [
+            "nb",
+            "newbenefits"
+        ],
         "productType": "Teladoc",
         "needsForm": false,
         "idCard": {
@@ -484,7 +568,10 @@
     {
         "id": "SHORT_TERM_7",
         "name": "Short Term Gen 7",
-        "shortName": "STM7",
+        "keywords": [
+            "stm",
+            "medical"
+        ],
         "productType": "Ancillary",
         "needsForm": true,
         "idCard": {
@@ -502,7 +589,9 @@
     {
         "id": "TERM_LIFE_SAFEGUARD",
         "name": "Term Life SafeGuard",
-        "shortName": "TL",
+        "keywords": [
+            "tlsg"
+        ],
         "productType": "Ancillary",
         "needsForm": false,
         "idCard": {
@@ -520,7 +609,11 @@
     {
         "id": "VISION_A",
         "name": "Vision Plan A",
-        "shortName": "VISA",
+        "keywords": [
+            "va",
+            "vsa",
+            "visa"
+        ],
         "productType": "Vision",
         "needsForm": true,
         "idCard": {
@@ -538,7 +631,11 @@
     {
         "id": "VISION_B",
         "name": "Vision Plan B",
-        "shortName": "VISB",
+        "keywords": [
+            "vb",
+            "vsb",
+            "visb"
+        ],
         "productType": "Vision",
         "needsForm": true,
         "idCard": {
@@ -556,7 +653,11 @@
     {
         "id": "VISION_WISE",
         "name": "VisionWise",
-        "shortName": "VISWISE",
+        "keywords": [
+            "vw",
+            "vsw",
+            "viswise"
+        ],
         "productType": "Vision",
         "needsForm": true,
         "idCard": {

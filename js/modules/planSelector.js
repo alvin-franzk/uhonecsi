@@ -33,9 +33,11 @@ function generateCheckboxes() {
                     .toLowerCase()
                     .includes(searchText)
                 ||
-                plan.shortName
-                    .toLowerCase()
-                    .includes(searchText);
+                (plan.keywords || []).some(keyword =>
+                    keyword
+                        .toLowerCase()
+                        .includes(searchText)
+                );
 
             return typeMatch && searchMatch;
 
@@ -89,7 +91,7 @@ function generateCheckboxes() {
         });
 }
 
-function populateProductTypes() {
+function populateProductTypes(selectElement) {
     const types = [
         ...new Set(
             data.plans.map(plan => plan.productType)
@@ -97,8 +99,7 @@ function populateProductTypes() {
     ].sort();
 
     types.forEach(type => {
-
-        cancelTypeFilter.insertAdjacentHTML(
+        selectElement.insertAdjacentHTML(
             "beforeend",
             `<option value="${type}">${type}</option>`
         );

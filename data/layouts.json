@@ -6,8 +6,8 @@
     },
     {
         "id": "AddDependent",
-        "title": "Add Dependent",
-        "enabled": false
+        "title": "Add Dependent (WIP)",
+        "enabled": true
     },
     {
         "id": "RemoveDependent",

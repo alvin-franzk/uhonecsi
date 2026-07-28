@@ -19,7 +19,7 @@ Promise.all([
             );
 
         populateReasons();
-        populateProductTypes();
+        populateProductTypes(cancelTypeFilter);
         generateCheckboxes();
         refreshCancellationOutputs();
     })

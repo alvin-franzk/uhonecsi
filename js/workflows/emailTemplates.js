@@ -46,8 +46,18 @@ function updateTemplate() {
             memberPlanEmail || "{Plan Name}"
         );
 
+    const emailSubjectLine = template.emailSubjectLine
+        .replaceAll(
+            "{memberName}",
+            memberNameEmail || "{Member Name}"
+        )
+        .replaceAll(
+            "{planName}",
+            memberPlanEmail || "{Plan Name}"
+        );
+
     document.getElementById("emailSubjectLine").value =
-        template.emailSubjectLine;
+        emailSubjectLine;
 
     document.getElementById("emailTemplate").value =
         emailBody;
