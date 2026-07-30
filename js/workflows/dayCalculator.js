@@ -41,10 +41,10 @@ function getFederalHolidays(year) {
         getNthWeekdayOfMonth(year, 0, 1, 3), // MLK
         getNthWeekdayOfMonth(year, 1, 1, 3), // Presidents
         getLastWeekdayOfMonth(year, 4, 1), // Memorial
-        getObservedHoliday(year, 5, 19), // Juneteenth
+        // getObservedHoliday(year, 5, 19), // Juneteenth
         getObservedHoliday(year, 6, 4), // Independence
         getNthWeekdayOfMonth(year, 8, 1, 1), // Labor
-        getNthWeekdayOfMonth(year, 9, 1, 2), // Columbus
+        // getNthWeekdayOfMonth(year, 9, 1, 2), // Columbus
         getObservedHoliday(year, 10, 11), // Veterans
         getNthWeekdayOfMonth(year, 10, 4, 4), // Thanksgiving
         getObservedHoliday(year, 11, 25) // Christmas
