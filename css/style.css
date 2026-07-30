@@ -347,3 +347,62 @@ td:not(.copy-cell) {
 .contact-table-container::-webkit-scrollbar-thumb:hover {
     background: #888;
 }
+
+/* =========================
+   Day Calculator
+========================= */
+
+.result-output {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 38px;
+    width: 100%;
+
+    padding: 0.5rem 0.75rem;
+
+    color: #000000;
+
+    border: 1px solid #2447b9;
+    border-radius: 0.375rem;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.dark-mode .result-output {
+    color: #FFF;
+    border-color: #838383;
+}
+
+.disclaimer-box {
+    color: #745a0f;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+.disclaimer-box:not(:empty) {
+    display: block;
+
+    padding: 0.5rem 0.75rem;
+    margin-top: 0.5rem;
+
+    background: rgba(255, 193, 7, 0.15);
+    border-left: 4px solid #ffc107;
+    border-radius: 0.25rem;
+}
+
+.dark-mode .disclaimer-box {
+    color: #ffd166;
+}
+
+.card-body + .card-body {
+    border-top: 1px solid var(--surface-border);
+}
+
+.card-body h5.card-title {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}

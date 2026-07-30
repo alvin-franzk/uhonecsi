@@ -1,0 +1,83 @@
+{
+  "addresses": [
+    {
+      "title": "Premium Payment Address",
+      "details": [
+        "with statement, amount matches notice, regular U.S. Mail only",
+        "P.O. Box 740209",
+        "Cincinnati, OH 45274-0209"
+      ],
+      "keywords": [
+        "premium",
+        "payment",
+        "mail"
+      ]
+    },
+    {
+      "title": "PA Address (First Source)",
+      "details": [
+        "Golden Rule Insurance Company",
+        "Policy Administration",
+        "P.O. Box 31372",
+        "Salt Lake City, UT 84131-0372"
+      ],
+      "keywords": [
+        "pa",
+        "policy administration",
+        "first source"
+      ]
+    },
+    {
+      "title": "NB Address (First Source)",
+      "details": [
+        "P.O. Box 31370",
+        "Salt Lake City, UT 84131-0372"
+      ],
+      "keywords": [
+        "nb",
+        "new business",
+        "first source"
+      ]
+    },
+    {
+      "title": "Placeholder 2456",
+      "details": [
+        "P.O. Box placeholder",
+        "Salt Lake City, UT 84131-0372 placeholder"
+      ],
+      "keywords": [
+        "placeholder"
+      ]
+    },
+    {
+      "title": "Placeholder 3261",
+      "details": [
+        "P.O. Box placeholder",
+        "Salt Lake City, UT 84131-0372 placeholder"
+      ],
+      "keywords": [
+        "placeholder"
+      ]
+    },
+    {
+      "title": "Placeholder 123",
+      "details": [
+        "P.O. Box placeholder",
+        "Salt Lake City, UT 84131-0372 placeholder"
+      ],
+      "keywords": [
+        "placeholder"
+      ]
+    },
+    {
+      "title": "Placeholder 9962",
+      "details": [
+        "P.O. Box placeholder",
+        "Salt Lake City, UT 84131-0372 placeholder"
+      ],
+      "keywords": [
+        "placeholder"
+      ]
+    }
+  ]
+}

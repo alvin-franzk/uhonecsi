@@ -7,16 +7,16 @@
             "body": "Hello {memberName},\n\nPlease see attached file(s).\n\nPlease do not reply to this message, as it was sent from a 'no-reply' mailbox. If you have any questions or need assistance, please call us at 1-800-657-8205."
         },
         {
-            "id": "idCardGeneral",
-            "subject": "ID Card Request",
-            "emailSubjectLine": "{planName} Digital ID Card | UnitedHealthOne - Golden Rule Insurance Co.",
-            "body": "Hello {memberName},\n\nAs requested, a copy of your digital ID card for your {planName} is attached to this email for your convenience.\n\nPlease review the information on the ID card to ensure it is accurate. You may print the card or save it to your mobile device for easy access when receiving healthcare services.\n\nPlease do not reply to this message, as it was sent from a 'no-reply' mailbox. If you have any questions or need assistance, please call us at 1-800-657-8205."
-        },
-        {
             "id": "dependentAdd",
             "subject": "Add Dependent",
             "emailSubjectLine": "{planName} Dependent Form | UnitedHealthOne - Golden Rule Insurance Co.",
             "body": "Hello {memberName},\n\nPlease find attached the form that you need to fill out to add your dependent(s) to your {planName}. After completing the form, please submit it by mail or fax using the information provided below: \nConstituent Services\nPO Box 31343\nSalt Lake City, UT 84131-0372\nFax Number: 1-801-478-5461\n\nPlease do not reply to this message, as it was sent from a 'no-reply' mailbox. If you have any questions or need assistance, please call us at 1-800-657-8205."
+        },
+        {
+            "id": "idCardGeneral",
+            "subject": "ID Card Request",
+            "emailSubjectLine": "{planName} Digital ID Card | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nAs requested, a copy of your digital ID card for your {planName} is attached to this email for your convenience.\n\nPlease review the information on the ID card to ensure it is accurate. You may print the card or save it to your mobile device for easy access when receiving healthcare services.\n\nPlease do not reply to this message, as it was sent from a 'no-reply' mailbox. If you have any questions or need assistance, please call us at 1-800-657-8205."
         },
         {
             "id": "idCardHPG",
@@ -41,6 +41,12 @@
             "subject": "Reinstatement",
             "emailSubjectLine": "{planName} Reinstatement Form | UnitedHealthOne - Golden Rule Insurance Co.",
             "body": "Hello {memberName},\n\nPlease find attached the form to reinstate your {planName}. After completing the form, please submit it by mail or fax using the information provided below: \nConstituent Services\nPO Box 31343\nSalt Lake City, UT 84131-0372\nFax Number: 1-801-478-5461\n\nPlease do not reply to this message, as it was sent from a 'no-reply' mailbox. If you have any questions or need assistance, please call us at 1-800-657-8205."
+        },
+        {
+            "id": "authorizationForms",
+            "subject": "Authorization Forms",
+            "emailSubjectLine": "Authorization Forms | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nAs requested, please find attached the authorization forms.\n\nPlease complete, sign, and return the form using the instructions provided on the document. Once received, we will review and process your request accordingly.\n\nPlease do not reply to this message, as it was sent from a 'no-reply' mailbox. If you have any questions or need assistance, please call us at 1-800-657-8205."
         }
     ]
 }

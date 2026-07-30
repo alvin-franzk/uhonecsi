@@ -17,7 +17,7 @@
 
         <!-- Header -->
         <div class="d-flex justify-content-between align-items-center mb-4">
-            <h2 class="mb-0">CAA Helper v1.0.3</h2>
+            <h2 class="mb-0">CAA Helper v1.3.5</h2>
 
             <button id="darkModeBtn" class="btn btn-outline-secondary">
                 🌙 Dark Mode
@@ -269,9 +269,148 @@
                     </div>
                 </div>
 
-                <!-- Refund Calculator Layout -->
-                <div id="layoutRefundCalc" class="layout-panel">
+                <!-- Day/Refund Calculators Layout -->
+                <div id="layoutCalculators" class="layout-panel">
 
+                    <!-- Day Calculator Layout Add-on -->
+                    <h4 class="card-title mb-3">Day Calculator</h4>
+                    <div class="card">
+                        <div class="card-body">
+
+                            <!-- Calculate Future Date -->
+                            <div class="row g-3 align-items-end">
+                                <div class="col-md-4">
+                                    <h5 class="card-title mb-3">Calculate a Future Date</h5>
+                                    <label class="form-label">
+                                        Beginning Date
+                                    </label>
+                                    <input id="beginDateFuture" type="date" min="1900-01-01" max="2200-12-31"
+                                        class="form-control">
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label class="form-label">
+                                        Number of Days
+                                    </label>
+                                    <input id="noOfDaysFuture" type="number" class="form-control">
+                                </div>
+
+                                <div class="col-md-4">
+                                    <output id="endDateFuture" class="result-output">
+                                        --
+                                    </output>
+                                </div>
+
+                                <!-- Day Type Selection for Future Date -->
+                                <div class="row mt-3">
+                                    <div class="col-md-6">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="futureDateMode"
+                                                id="calendarDaysFuture" checked>
+                                            <label class="form-check-label" for="calendarDaysFuture">
+                                                Calendar Days
+                                            </label>
+                                        </div>
+
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="futureDateMode"
+                                                id="workingDaysFuture">
+                                            <label class="form-check-label" for="workingDaysFuture">
+                                                Business Days
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <small id="futureDateDisclaimer" class="disclaimer-box"></small>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card-body">
+
+                            <!-- Days Between Dates -->
+                            <div class="row g-3 align-items-end">
+                                <div class="col-md-4">
+                                    <h5 class="card-title mb-3">Calculate Days Between Dates</h5>
+                                    <label class="form-label">
+                                        Beginning Date
+                                    </label>
+                                    <input id="beginDateBetween" type="date" min="1900-01-01" max="2200-12-31"
+                                        class="form-control">
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label class="form-label">
+                                        Ending Date
+                                    </label>
+                                    <input id="endDateBetween" type="date" min="1900-01-01" max="2200-12-31"
+                                        class="form-control">
+                                </div>
+
+                                <div class="col-md-4">
+                                    <output id="totalDaysBetween" class="result-output">
+                                        --
+                                    </output>
+                                </div>
+                                <!-- Day Type Selection for Days Between -->
+                                <div class="row mt-3">
+                                    <div class="col-md-6">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="daysBetweenDateMode"
+                                                id="calendarDaysBetween" checked>
+                                            <label class="form-check-label" for="calendarDaysBetween">
+                                                Calendar Days
+                                            </label>
+                                        </div>
+
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="daysBetweenDateMode"
+                                                id="workingDaysBetween">
+                                            <label class="form-check-label" for="workingDaysBetween">
+                                                Business Days
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <small id="daysBetweenDisclaimer" class="disclaimer-box"></small>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card-body">
+
+                            <!-- Convert Date -->
+                            <div class="row g-3 align-items-end">
+                                <div class="col-md-4">
+                                    <h5 class="card-title mb-3">Julian Date Converter</h5>
+                                    <label class="form-label">
+                                        Julian Date
+                                    </label>
+                                    <input id="julianDate" type="number" class="form-control">
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label">
+                                        Gregorian Date
+                                    </label>
+                                    <output id="calendarDate" class="result-output">
+                                        --
+                                    </output>
+                                </div>
+                                <div class="col-md-4">
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Refund  Main -->
+                    <br>
+                    <h4 class="card-title mb-3">Prorated Refund Calculator</h4>
                     <div class="card">
                         <div class="card-body">
                             <div class="row g-3">
@@ -331,7 +470,11 @@
 
                 <!-- Billing & Payments -->
                 <div id="layoutBillingPayments" class="layout-panel">
-
+                    <div class="alert alert-warning" role="alert">
+                        <strong>🚧 Work in Progress:</strong>
+                        This section is currently being developed and some information may be incomplete or subject
+                        to change.
+                    </div>
                     <div class="row g-4">
                         <!-- Left Card -->
                         <div class="col-lg-6">
@@ -606,6 +749,11 @@
 
                 <!-- Add Dependent Layout -->
                 <div id="layoutAddDependent" class="layout-panel">
+                    <div class="alert alert-warning" role="alert">
+                        <strong>🚧 Work in Progress:</strong>
+                        This section is currently being developed and some information may be incomplete or subject
+                        to change.
+                    </div>
                     <div class="row">
                         <!-- Left Side -->
                         <div class="col-md-6">
@@ -643,6 +791,10 @@
                             </div>
                         </div>
 
+                        <div class="alert alert-info" role="alert" style="margin-top: 10px;">
+                            <strong>📝 Developer Note:</strong>
+                            Once agent selects policy, links to the policy PDFs will show here and/or an e-mail will be generated with the attached PDF files, ready to be sent via MS Outlook.
+                        </div>
                         <!-- Clipboard and Reset Button -->
                         <div class="row mt-3 align-items-center">
                             <div class="col-4">
@@ -665,6 +817,20 @@
                     </div>
                 </div>
 
+                <!-- Other Info Layout -->
+                <div id="layoutOtherInfo" class="layout-panel">
+                    <div class="col-12">
+                        <div class="alert alert-warning" role="alert">
+                            <strong>🚧 Work in Progress:</strong>
+                            This section is currently being developed and some information may be incomplete or subject
+                            to change.
+                        </div>
+                        <input id="addressSearch" class="form-control mb-3" type="text"
+                            placeholder="Search by name or short name...">
+                    </div>
+                    <div id="categoriesAddressContainer"></div>
+                </div>
+
             </div>
 
         </div>
@@ -682,6 +848,8 @@
     <script src="js/workflows/addressBook.js"></script>
     <script src="js/workflows/emailTemplates.js"></script>
     <script src="js/workflows/addDependent.js"></script>
+    <script src="js/workflows/dayCalculator.js"></script>
+    <script src="js/workflows/addresses.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>

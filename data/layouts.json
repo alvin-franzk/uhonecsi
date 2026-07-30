@@ -6,7 +6,7 @@
     },
     {
         "id": "AddDependent",
-        "title": "Add Dependent (WIP)",
+        "title": "Add Dependent",
         "enabled": true
     },
     {
@@ -27,7 +27,7 @@
     {
         "id": "BillingPayments",
         "title": "Billing & Payments",
-        "enabled": false
+        "enabled": true
     },
     {
         "id": "EmailTemplates",
@@ -40,8 +40,13 @@
         "enabled": false
     },
     {
-        "id": "RefundCalc",
-        "title": "Refund Calculator",
+        "id": "Calculators",
+        "title": "Calculators (Prorated Refund/Day)",
+        "enabled": true
+    },
+    {
+        "id": "OtherInfo",
+        "title": "Addresses & KM Articles",
         "enabled": true
     }
 ]

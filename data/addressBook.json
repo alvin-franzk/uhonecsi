@@ -58,7 +58,7 @@
                         "facets claims",
                         "facets benefits",
                         "claims and benefits",
-                        "cnb",
+                        "cnb dpt",
                         "uhone"
                     ],
                     "copyable": false
@@ -67,7 +67,7 @@
                     "name": "Mainframe Admin",
                     "number": "UHO_MF_ADMIN",
                     "keywords": [
-                        "mf admin",
+                        "mf admin dpt",
                         "uhone"
                     ],
                     "copyable": false
@@ -76,7 +76,7 @@
                     "name": "Mainframe Claims",
                     "number": "UHO_MF_CLAIMS",
                     "keywords": [
-                        "mf claims",
+                        "mf claims dpt",
                         "uhone"
                     ],
                     "copyable": false
@@ -285,6 +285,13 @@
                     "keywords": []
                 },
                 {
+                    "name": "Fidelis Care",
+                    "number": "1-888-343-3547",
+                    "keywords": [
+                        "fc"
+                    ]
+                },
+                {
                     "name": "Globe Life Insurance",
                     "number": "1-844-726-4372",
                     "keywords": []
@@ -315,7 +322,7 @@
                     "keywords": []
                 },
                 {
-                    "name": "Medicaid Original",
+                    "name": "Medicaid Gov",
                     "number": "1-877-267-2323",
                     "keywords": [
                         "gov"
@@ -327,7 +334,7 @@
                     "keywords": []
                 },
                 {
-                    "name": "Medicare Original",
+                    "name": "Medicare Gov",
                     "number": "1-800-633-4227",
                     "keywords": [
                         "gov"
@@ -368,6 +375,11 @@
                     ]
                 },
                 {
+                    "name": "Principal Health",
+                    "number": "1-800-986-3343",
+                    "keywords": []
+                },
+                {
                     "name": "Rocky Mountain Health Plans",
                     "number": "1-855-830-1562",
                     "keywords": [
@@ -378,7 +390,10 @@
                     "name": "Student Resources",
                     "number": "1-800-767-0700",
                     "keywords": [
+                        "uhc",
+                        "school",
                         "college",
+                        "academy",
                         "university"
                     ]
                 },

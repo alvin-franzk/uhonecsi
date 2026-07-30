@@ -42,6 +42,6 @@
 
     "Death": {
         "title": "Death",
-        "retentionScript": "generate empathy message. proceed to disclaimer."
+        "retentionScript": "generate empathy message and pend to cs for cancellation death letter. proceed to disclaimer."
     }
 }
