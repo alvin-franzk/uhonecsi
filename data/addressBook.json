@@ -266,7 +266,8 @@
                     "keywords": [
                         "cp",
                         "sc",
-                        "food"
+                        "food",
+                        "grocery"
                     ]
                 },
                 {
@@ -283,6 +284,13 @@
                     "name": "Duke Energy (Retirement Plan)",
                     "number": "1-877-298-2305",
                     "keywords": []
+                },
+                {
+                    "name": "FACT Member Services",
+                    "number": "1-800-872-3228",
+                    "keywords": [
+                        "fact advantage"
+                    ]
                 },
                 {
                     "name": "Fidelis Care",

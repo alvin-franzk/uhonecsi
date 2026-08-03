@@ -14,8 +14,9 @@
       ]
     },
     {
-      "title": "PA Address (First Source)",
+      "title": "PA Address (First Source) (No List Bill)",
       "details": [
+        "(Send here if future cancel or additional premium letter sent by PA)",
         "Golden Rule Insurance Company",
         "Policy Administration",
         "P.O. Box 31372",
@@ -40,40 +41,46 @@
       ]
     },
     {
-      "title": "Placeholder 2456",
+      "title": "Indy Address",
       "details": [
-        "P.O. Box placeholder",
-        "Salt Lake City, UT 84131-0372 placeholder"
+        "1-800-926-7602, 1-317-297-4123",
+        "500 E 96th Street, Suite 200 ",
+        "Indianapolis, IN 46240"
       ],
       "keywords": [
         "placeholder"
       ]
     },
     {
-      "title": "Placeholder 3261",
+      "title": "Green Bay Address",
       "details": [
-        "P.O. Box placeholder",
-        "Salt Lake City, UT 84131-0372 placeholder"
+        "1-920-661-1111",
+        "2020 Innovation Court ",
+        "De Pere, WI 54115"
       ],
       "keywords": [
         "placeholder"
       ]
     },
     {
-      "title": "Placeholder 123",
+      "title": "Standard Appeals and Grievances (Mainframe Policies)",
       "details": [
-        "P.O. Box placeholder",
-        "Salt Lake City, UT 84131-0372 placeholder"
+        "Grievance Administrator",
+        "P. O. Box 31371",
+        "Salt Lake City, UT 84131-0371",
+        "Fax 1-801-478-5463"
       ],
       "keywords": [
         "placeholder"
       ]
     },
     {
-      "title": "Placeholder 9962",
+      "title": "Expedited Appeals and Grievances (Mainframe Policies)",
       "details": [
-        "P.O. Box placeholder",
-        "Salt Lake City, UT 84131-0372 placeholder"
+        "Grievance Administrator",
+        "2020 Innovation Court",
+        "De Pere, WI 54115",
+        "Fax 1-866-654-6323"
       ],
       "keywords": [
         "placeholder"

@@ -48,5 +48,10 @@
         "id": "OtherInfo",
         "title": "Addresses & KM Articles",
         "enabled": true
+    },
+    {
+        "id": "PaymentHistory",
+        "title": "Payment History",
+        "enabled": true
     }
 ]

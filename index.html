@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel='stylesheet' type='text/css' href='css/style.css'>
+    <link rel='stylesheet' type='text/css' href='js/paymentHistory/css/document.css'>
+    <link rel='stylesheet' type='text/css' href='js/paymentHistory/css/app.css'>
 </head>
 
 <body>
@@ -19,7 +21,7 @@
         <div class="d-flex justify-content-between align-items-center mb-4">
             <div class="d-flex flex-column">
                 <h2 class="mb-0">CAP</h2>
-                <small class="csr-name">CSR Assistance Portal</small>
+                <small class="csr-name">CSR Assistance Portal v1.3.8</small>
             </div>
 
             <button id="darkModeBtn" class="btn btn-outline-secondary">
@@ -835,6 +837,43 @@
                     <div id="categoriesAddressContainer"></div>
                 </div>
 
+                <!-- Payment History Layout -->
+                <div id="layoutPaymentHistory" class="layout-panel">
+                    <div class="alert alert-warning" role="alert">
+                        <strong>🚧 Work in Progress:</strong>
+                        This section is currently being developed and some information may be incomplete or subject
+                        to change.
+                    </div>
+                    <input 2 type="file" 3 id="csvFile" 4 accept=".csv">
+                    <div id="previewContainer">
+                        <div class="document">
+                            <div class="header">
+                                assets/logo.png
+                                <h1>Policy Certificate</h1>
+                            </div>
+                            <div class="content">
+                                <p>Name: {{Name}}</p>
+                                <p>
+                                    Policy Number:
+                                    {{PolicyNumber}}
+                                </p>
+                                <p>
+                                    Effective Date:
+                                    {{EffectiveDate}}
+                                </p>
+                            </div>
+                            <div class="signature">
+                                <div>
+                                    ____________________
+                                    <br>
+                                    Authorized Signature
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
@@ -857,6 +896,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+        integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/paymentHistory/PapaParse-5.0.2/papaparse.min.js"></script>
+    <script src="js/paymentHistory/app.js"></script>
+    <script src="js/paymentHistory/config.js"></script>
+    <script src="js/paymentHistory/csvParser.js"></script>
+    <script src="js/paymentHistory/pdfExporter.js"></script>
+    <script src="js/paymentHistory/templateEngine.js"></script>
 </body>
 
 </html>
