@@ -607,6 +607,31 @@
     },
 
     {
+        "id": "TRI_TERM_&",
+        "name": "Tri Term",
+        "keywords": [
+            "ttm",
+            "medical",
+            "fact"
+        ],
+        "productType": "Ancillary",
+        "needsForm": true,
+        "idCard": {
+            "required": true,
+            "states": []
+        },
+        "waitingPeriod": 0,
+        "dependentAgeLimit": {
+            "default": 26,
+            "stateOverrides": {
+                "FL": 31,
+                "MO": 20
+            }
+        },
+        "KMArticle": "KM2227001"
+    },
+
+    {
         "id": "VISION_A",
         "name": "Vision Plan A",
         "keywords": [

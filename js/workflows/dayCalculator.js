@@ -98,6 +98,7 @@ function getHolidayName(date) {
         { name: "Columbus Day", date: getNthWeekdayOfMonth(year, 9, 1, 2) },
         { name: "Veterans Day", date: getObservedHoliday(year, 10, 11) },
         { name: "Thanksgiving", date: getNthWeekdayOfMonth(year, 10, 4, 4) },
+        { name: "Day After Thanksgiving", date: getNthWeekdayOfMonth(year, 10, 5, 4) },
         { name: "Christmas Day", date: getObservedHoliday(year, 11, 25) }
     ];
 
@@ -170,7 +171,7 @@ function calculateFutureDate() {
             formatDateForCalc(result.date);
         if (result.holidays.length) {
             futureDateDisclaimer.textContent =
-                "Excluded federal holidays: " +
+                "Excluded holidays: " +
                 getHolidayDisclaimer(result.holidays);
         } else {
             futureDateDisclaimer.textContent = "";
