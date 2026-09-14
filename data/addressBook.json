@@ -245,7 +245,7 @@
                 },
                 {
                     "name": "Cigna Healthcare",
-                    "number": "1-800-828-3485",
+                    "number": "1-800-997-1654",
                     "keywords": []
                 },
                 {
@@ -323,6 +323,12 @@
                     ]
                 },
                 {
+                    "name": "Humana Medicare",
+                    "number": "1-800-457-4708",
+                    "keywords": []
+                },
+
+                {
                     "name": "Health Care Fraud Tip Line",
                     "number": "1-844-359-7736",
                     "keywords": [
@@ -376,15 +382,24 @@
                     "keywords": []
                 },
                 {
+                    "name": "OneAmerica",
+                    "number": "1-800-275-5101",
+                    "keywords": [
+                        "L plans"
+                    ]
+                },
+                {
                     "name": "Optum Perks",
                     "number": "1-866-407-8901",
                     "keywords": []
                 },
                 {
-                    "name": "PacifiCare Insurance of California",
+                    "name": "UHC West (PacifiCare)",
                     "number": "1-800-624-8822",
                     "keywords": [
-                        "ucnet"
+                        "ucnet",
+                        "uhc west",
+                        "insurance of california"
                     ]
                 },
                 {
@@ -412,8 +427,8 @@
                 },
                 {
                     "name": "UHC Complete Care",
-                    "number": "1-800-297-0259",
-                    "keywords": []
+                    "number": "1-800-711-6088",
+                    "keywords": ["medicare","complete"]
                 },
                 {
                     "name": "UHC Employer Coverage (More than 100)",
