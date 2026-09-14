@@ -336,24 +336,14 @@
                     ]
                 },
                 {
-                    "name": "Medicaid UHC",
-                    "number": "1-866-673-6255",
-                    "keywords": []
-                },
-                {
-                    "name": "Medicaid Gov",
+                    "name": "Medicaid",
                     "number": "1-877-267-2323",
                     "keywords": [
                         "gov"
                     ]
                 },
                 {
-                    "name": "Medicare UHC",
-                    "number": "1-877-629-3617",
-                    "keywords": []
-                },
-                {
-                    "name": "Medicare Gov",
+                    "name": "Medicare",
                     "number": "1-800-633-4227",
                     "keywords": [
                         "gov"
@@ -443,6 +433,11 @@
                 {
                     "name": "UHC Hearing",
                     "number": "1-866-926-6632",
+                    "keywords": []
+                },
+                {
+                    "name": "UHG (UnitedHealthGroup)",
+                    "number": "1-800-328-5979",
                     "keywords": []
                 },
                 {
