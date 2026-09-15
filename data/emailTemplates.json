@@ -50,9 +50,15 @@
         },
         {
             "id": "divider1",
-            "subject": "------------------------------",
-            "emailSubjectLine": "--------------- | UnitedHealthOne - Golden Rule Insurance Co.",
+            "subject": "-------TEMPLATES BELOW THIS LINE IS USED FOR SECURE MESSAGE-------",
+            "emailSubjectLine": "---------------",
             "body": "----------------"
+        },
+        {
+            "id": "ACA",
+            "subject": "ACA (Affordable Care Act)",
+            "emailSubjectLine": "Follow-Up Regarding ACA | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nThank you for contacting us regarding your inquiry for your {planName}.\n\nYour coverage is not subject to the Affordable Care Act and does not cover pre-existing conditions. Therefore, he cannot be added to your {planName} plan. \n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
         },
         {
             "id": "authorizationFormSecureLine",
@@ -64,13 +70,19 @@
             "id": "dependentAddSecureLine",
             "subject": "Add Dependent (Secure Line)",
             "emailSubjectLine": "{planName} Dependent Request | UnitedHealthOne - Golden Rule Insurance Co.",
-            "body": "Hello {memberName},\n\nThank you for reaching out regarding your request to add your dependent to your {planName} plan.\n\nAn application and underwriting review are required to add your spouse to your plan. Your request has been forwarded to underwriting for review, and processing may take 10-30 business days. Please note that there is no guarantee your dependent will be approved to be added to your policy. The estimated premium for adding your spouse is ${amount}.\n\nA confirmation letter will be mailed to you once your request has been completed.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding your request to add your dependent to your {planName} plan.\n\nAn application and underwriting review are required to add your spouse to your plan. Your request has been forwarded to underwriting for review, and processing may take 10-30 business days. Please note that there is no guarantee your dependent will be approved to be added to your policy. The estimated premium for adding your spouse is ${amount}.\n\nA confirmation letter will be mailed to you once your request has been completed.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
         },
         {
             "id": "dependentAddSecureLineOnBase",
             "subject": "Add Dependent (Upload OnBase)",
             "emailSubjectLine": "{planName} Dependent Request | UnitedHealthOne - Golden Rule Insurance Co.",
-            "body": "Hello {memberName},\n\nThank you for reaching out regarding your request to add your dependent to your {planName} plan.\n\nYour request has been forwarded to underwriting for review, and processing may take 10-30 business days. Please note that there is no guarantee your dependent will be approved to be added to your policy.\n\nA confirmation letter will be mailed to you once your request has been completed.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding your request to add your dependent to your {planName} plan.\n\nYour request has been forwarded to underwriting for review, and processing may take 10-30 business days. Please note that there is no guarantee your dependent will be approved to be added to your policy.\n\nA confirmation letter will be mailed to you once your request has been completed.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+        },
+        {
+            "id": "dependentAddFollowUp",
+            "subject": "Add Dependent - Follow Up",
+            "emailSubjectLine": "Follow-Up Regarding {planName} Dependent Addition | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding your request to add your dependent to your {planName} plan.\n\nI apologize that there has not been an update regarding your request yet. I will follow up on this and kindly ask for your continued patience while we work on it.\n\nPlease allow us an additional 7-10 business days for an update.\n\nThank you for your patience and understanding.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
         },
         {
             "id": "cancellationConfirmation",
@@ -82,13 +94,49 @@
             "id": "continueCoverage",
             "subject": "Continue Coverage",
             "emailSubjectLine": "Continue Coverage | UnitedHealthOne - Golden Rule Insurance Co.",
-            "body": "Hello {memberName},\n\nThank you for reaching out regarding your {planName} policy.\n\nAs long as no cancellation request is submitted and your payments continue to be processed, your coverage will remain active.\n\nCurrently, your payment is being processed and should be posted to your account within 3–5 business days. \n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding your {planName} policy.\n\nAs long as no cancellation request is submitted and your payments continue to be processed, your coverage will remain active.\n\nCurrently, your payment is being processed and should be posted to your account within 3–5 business days.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
         },
         {
             "id": "doublePayment",
             "subject": "Double Payment",
             "emailSubjectLine": "Clarification Regarding Your Premium Payment | UnitedHealthOne - Golden Rule Insurance Co.",
             "body": "Hello {memberName},\n\nThank you for reaching out regarding your payment.\n\nIt appears that your {prevMonth} premium was not processed in {prevMonth} due to {failureReason}.\n\nYour {currentMonth} payment of ${amount} includes both your {prevMonth} and {currentMonth} premiums. We will continue to draft your payment on {draftDate} of each month with a monthly premium of ${monthlyPrem}.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+        },
+        {
+            "id": "deleteAccount",
+            "subject": "Delete Account",
+            "emailSubjectLine": "Delete Account Request | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding deleting your account.\n\nThis is to confirm that your cancellation request was processed and your {planName} was canceled effective {date}, at 11:59 p.m. We are unable to delete your account. Please be assured that your account is secure, and only you can access it.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+        },
+        {
+            "id": "dueDateChange",
+            "subject": "Due Date Change",
+            "emailSubjectLine": "Follow-Up Regarding Your Due Date Change Request | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding changing your due date for your {planName} plan.\n\nYour due date is the 1st of each month and cannot be changed.\n\nIf you are referring to your payment or draft date, you may submit a request to change it. However, due to state regulations, you may only choose a payment date between the 2nd and the 10th of each month.\n\nCurrently, your draft date for your {planName} is the {day} of each month.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+        },
+        {
+            "id": "duplicatePol",
+            "subject": "Duplicate Policy",
+            "emailSubjectLine": "Information Regarding Duplicate Policy | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding your withdrawal/cancellation for the {PlanName} plan: {planID}.\n\nI have forwarded a request to withdraw your duplicate {planName} plan. The process will take 7–10 business days, and any applicable refund will be processed back to the account on file within 8–10 business days.\n\nFollowing are your current active plans:\n{activePlanName}\n\nwhich became effective on {effectiveDate}.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+        },
+        {
+            "id": "EAP",
+            "subject": "EAP",
+            "emailSubjectLine": "Follow-Up Regarding EAP | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nThank you for contacting us regarding your request to add an Employee Assistance Program (EAP) to your current {planName} coverage.\n\nUnfortunately, EAP coverage is not available for {planName} Plan ID {planID}, as it is an individual policy rather than employer-sponsored coverage. As a result, UnitedHealthOne is unable to add EAP benefits to your plan. We apologize for any inconvenience this may cause.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+        },
+        {
+            "id": "extendCoverage",
+            "subject": "Extend Coverage",
+            "emailSubjectLine": "Extend Coverage Request | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nThank you for your interest in extending your coverage.\n\nUnfortunately, we are unable to extend your {planName} plan, as coverage is based on the terms of your application and contract.\n\nOnce your policy expires, you may contact our Direct Sales Department at 1-800-985-2870 to determine your eligibility to submit a new application.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+        },
+        {
+            "id": "HSA",
+            "subject": "HSA",
+            "emailSubjectLine": "Folow-Up Regarding your HSA | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding your HSA account.\n\nTo qualify to set up an HSA account, you must be enrolled in a qualifying High-Deductible Health Plan (HDHP). Your {planName} plan are not considered a High-Deductible Health Plan (HDHP). We apologize for any inconvenience this may cause.\n\nSince your plan does not qualify for a HSA, you can contact your tax professional who can advise you on the IRS guidelines for HSA plans or visit IRS.gov.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
         },
         {
             "id": "idCardSecureLine",
@@ -109,16 +157,40 @@
             "body": "Hello {memberName},\n\nThank you for reaching out regarding your {planName} policy.\n\nIt appears that the {planName} plan you selected has the lowest premium among the {planName} plans we offer. Therefore, we are unable to downgrade your coverage to a lower-cost plan.\n\nOur records show that you do not have any other plans with us.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
         },
         {
+            "id": "movedToDiffState",
+            "subject": "Moved to Different State",
+            "emailSubjectLine": "Coverage Eligibility in a New State | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding your {planName} plan.\n\nYou may use your coverage in the state of {state}. I can see that we have your {state} address on file. If your address needs to be updated, please use the self-service option available at www.uhcmemberhub.com.\n\nPlease review your plan benefits and verify that your healthcare providers are in-network to ensure you can use your coverage without any issues.\n\nOur records show that you do not have any other plans with us.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+        },
+        {
+            "id": "planDowngrade",
+            "subject": "Plan Downgrade - Denied",
+            "emailSubjectLine": "Plan Downgrade Request | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding your plan downgrade request.\n\nWe are unable to process your request because your policy is already outside the free look period. Your plan's effective date is {date}, and it has only been in force for one month.\n\nYou may be eligible to downgrade your coverage outside the free look period only if your plan has been in force for at least six months. In addition, a coverage downgrade can only be requested once per calendar year.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+        },
+        {
             "id": "planUpgrade",
             "subject": "Plan Upgrade",
             "emailSubjectLine": "Plan Upgrade Request | UnitedHealthOne - Golden Rule Insurance Co.",
-            "body": "Hello {memberName},\n\nThank you for reaching out regarding increasing your coverage for your {planName} plan. \n\nYou may still make changes to your coverage until {date}, which is the end of your free-look period. Please contact your agent, {agentName}, at {agentNo} to discuss the available {planName} upgrade options. Once you have chosen a plan, please contact us again, and we will be happy to forward your request.\n\nYour request will be forwarded to Underwriting for review, and any applicable rate changes will apply.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding increasing your coverage for your {planName} plan.\n\nYou may still make changes to your coverage until {date}, which is the end of your free-look period. Please contact your agent, {agentName}, at {agentNo} to discuss the available {planName} upgrade options. Once you have chosen a plan, please contact us again, and we will be happy to forward your request.\n\nYour request will be forwarded to Underwriting for review, and any applicable rate changes will apply.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+        },
+        {
+            "id": "premiumBreakdown",
+            "subject": "Premium Breakdown",
+            "emailSubjectLine": "Premium Breakdown Request | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding your payment.\n\nI have submitted a request to our Administrative Department for the premium breakdown of your {planName} plan. You should receive the information by mail within 7-10 business days.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
         },
         {
             "id": "noRefund",
             "subject": "No Refund",
             "emailSubjectLine": "Refund Status | UnitedHealthOne - Golden Rule Insurance Co.",
             "body": "Hello {memberName},\n\nThank you for reaching out regarding your refund status.\n\nIt appears that your {planName} plan was canceled effective on the last paid-through date, {date}. Therefore, no premium refund will be processed.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+        },
+        {
+            "id": "rateChange",
+            "subject": "Rate Adjustment/Change",
+            "emailSubjectLine": "Rate Changes Regarding with your Plan | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding your billing.\n\nA rate adjustment letter dated {dateSent}, was mailed to notify you of an increase in your premium.\n\nEffective {effectiveDate}, your premium rate will change to ${amount}. This adjustment is based on the combined claims of all policyholders with plans similar to yours. Similar plans are often grouped for premium rating based on plan benefits, the ages of adult members, and the geographic locations of members.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
         },
         {
             "id": "reactivationDenied",
@@ -130,7 +202,13 @@
             "id": "reactivationProbable",
             "subject": "Reactivation Probable (Within 60-90 Days)",
             "emailSubjectLine": "Reactivation Request | UnitedHealthOne - Golden Rule Insurance Co.",
-            "body": "Hello {memberName},\n\nThank you for reaching out regarding your reactivation request.\n\nYour {planName} plan was automatically canceled effective {date} due to non-payment of premium.\n\nPlease contact our office so our live agent can determine whether an exemption can be made to reactivate your policy.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest Regards,\nClient Services\nUnitedHealthOne"
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding your reactivation request.\n\nYour {planName} plan was automatically canceled effective {date} due to non-payment of premium.\n\nPlease contact our office so our live agent can determine whether an exemption can be made to reactivate your policy.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest Regards,\nClient Services\nUnitedHealthOne"
+        },
+        {
+            "id": "reactivationPayment",
+            "subject": "Reactivation Payment",
+            "emailSubjectLine": "Folow-Up Regarding Your Reactivation | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding your reactivation request.\n\nWe’ve tried calling you, but it seems you were unavailable.\n\nAn exception has been made to reactivate your {planName} plan. However, you will need to contact our office, as we need to speak with you to review important information regarding your payments.\n\nPlease note that the exception to reactivate your plan is only valid until {date}.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest Regards,\nClient Services\nUnitedHealthOne"
         },
         {
             "id": "refundStatus",
@@ -161,7 +239,12 @@
             "subject": "Information Change - Sub Responded",
             "emailSubjectLine": "Information Change Request | UnitedHealthOne - Golden Rule Insurance Co.",
             "body": "Hello {memberName},\n\nThank you for taking my call.\n\nAs we discussed over the phone, there is no need to update the {informationSubject} for you or your dependents, as the information we have on file is correct.\n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
+        },
+        {
+            "id": "lastNameChangeCompleted",
+            "subject": "Update Last Name - Completed over the Phone",
+            "emailSubjectLine": "Follow Up Regarding Updating Last Name | UnitedHealthOne - Golden Rule Insurance Co.",
+            "body": "Hello {memberName},\n\nThank you for reaching out regarding updating your last name.\n\nIt appears that your last name has already been updated over the phone.\n\nI have ordered a new ID card to be mailed to you. You should receive it within 7-10 business days. Additionally, the information in the system should also be updated. \n\nOur records show that you do not have any other plans with us.\n\nIf you have any further questions, please call us at 1-800-657-8205. We are open Monday through Friday from 7 a.m. to 5 p.m. CT. You may also send us a new secure message, and please allow 3-5 business days for a response.\n\nThank you, {memberName}, for being a valued UnitedHealthOne customer.\n\nKindest regards,\nClient Services\nUnitedHealthOne"
         }
-
     ]
 }
