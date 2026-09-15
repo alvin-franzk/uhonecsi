@@ -7,7 +7,7 @@
     {
         "id": "AddDependent",
         "title": "Add Dependent",
-        "enabled": true
+        "enabled": false
     },
     {
         "id": "RemoveDependent",
@@ -27,7 +27,7 @@
     {
         "id": "BillingPayments",
         "title": "Billing & Payments",
-        "enabled": true
+        "enabled": false
     },
     {
         "id": "EmailTemplates",

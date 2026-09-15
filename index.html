@@ -828,36 +828,34 @@
                         This section is currently being developed and some information may be incomplete or subject
                         to change.
                     </div>
-                    <input 2 type="file" 3 id="csvFile" 4 accept=".csv">
-                    <div id="previewContainer">
-                        <div class="document">
-                            <div class="header">
-                                assets/logo.png
-                                <h1>Policy Certificate</h1>
-                            </div>
-                            <div class="content">
-                                <p>Name: {{Name}}</p>
-                                <p>
-                                    Policy Number:
-                                    {{PolicyNumber}}
-                                </p>
-                                <p>
-                                    Effective Date:
-                                    {{EffectiveDate}}
-                                </p>
-                            </div>
-                            <div class="signature">
-                                <div>
-                                    ____________________
-                                    <br>
-                                    Authorized Signature
-                                </div>
-                            </div>
-                        </div>
+                    <div class="mb-3">
+                        <label for="paymentHistoryName" class="form-label mt-2">Member Name</label>
+                                <input id="paymentHistoryName" type="text" class="form-control"
+                                    placeholder="Enter member name">
+
+                        <label for="paymentHistoryAddress" class="form-label mt-2">Member Address</label>
+                                <input id="paymentHistoryAddress" type="text" class="form-control"
+                                    placeholder="Enter member address">
+
+                        <label for="paymentHistoryPlanID" class="form-label mt-2">Plan ID</label>
+                                <input id="paymentHistoryPlanID" type="text" class="form-control"
+                                    placeholder="Enter plan ID">
+
+                        <label for="paymentHistoryPlanName" class="form-label mt-2">Plan Name</label>
+                                <input id="paymentHistoryPlanName" type="text" class="form-control"
+                                    placeholder="Enter plan name">
+
+                        <label for="csvFile" class="form-label">
+                            Upload CSV File
+                        </label>
+                        <input type="file" id="csvFile" class="form-control" accept=".csv,text/csv">
                     </div>
-
+                    <button id="downloadPdfBtn" class="btn btn-primary">
+                        Download PDF
+                    </button>
+                    <hr>
+                    <div id="previewPaymentHistoryContainer"></div>
                 </div>
-
             </div>
 
         </div>
@@ -883,12 +881,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
         integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="js/paymentHistory/PapaParse-5.0.2/papaparse.min.js"></script>
-    <script src="js/paymentHistory/app.js"></script>
-    <script src="js/paymentHistory/config.js"></script>
-    <script src="js/paymentHistory/csvParser.js"></script>
-    <script src="js/paymentHistory/pdfExporter.js"></script>
-    <script src="js/paymentHistory/templateEngine.js"></script>
+    <script src="js/paymentHistory/lib/PapaParse-5.0.2/papaparse.min.js"></script>
+    <script src="js/paymentHistory/app.js" type="module"></script>
 </body>
 
 </html>

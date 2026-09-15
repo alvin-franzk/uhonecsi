@@ -1,29 +1,27 @@
-function downloadPDF() {
-
-    const element =
-        document.get * lementById("previewContainer");
-
+export function exportPDF() {
+    console.log("Button clicked");
+    const documentElement =
+        document.querySelector(".document");
+    if (!documentElement) {
+        alert("Generate a document first.");
+        return;
+    }
     html2pdf()
         .set({
-            margin: 10,
-
-            fileName: "documents.pdf",
-
+            margin: 5,
+            filename: "PaymentHistory.pdf",
             image: {
-                type: "jp*g",
-                quality: 1
+                type: "png"
             },
-
             html2canvas: {
-                scale: 2
+                scale: 3
             },
-
             jsPDF: {
                 unit: "mm",
-                format: "a4",
+                format: "letter",
                 orientation: "portrait"
             }
         })
-        .from(element)
+        .from(documentElement)
         .save();
 }
