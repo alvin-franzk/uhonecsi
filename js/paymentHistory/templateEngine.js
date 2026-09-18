@@ -1,7 +1,6 @@
 import { getDateRange } from "./csvParser.js";
 
 export function buildPaymentTable(records) {
-
     return records
         .map(record => `
             <tr>
@@ -14,9 +13,7 @@ export function buildPaymentTable(records) {
         .join("");
 }
 
-
-export function buildLetter(records) {
-    console.log(records);
+export function getLetterData(records) {
     const memberName =
         document.getElementById("paymentHistoryName").value;
     const memberAddress =
@@ -27,18 +24,39 @@ export function buildLetter(records) {
         document.getElementById("paymentHistoryPlanName").value;
     const { earliest, latest } =
         getDateRange(records);
+    return {
+        memberName,
+        memberAddress,
+        planId,
+        planName,
+        earliest,
+        latest,
+        records
+    };
+}
+
+export function buildLetter(records) {
+
+    const data = getLetterData(records);
+
     const tableRows =
-        buildPaymentTable(records);
+        buildPaymentTable(data.records);
+
     return `
         <div class="document">
+
+            <!-- HEADER -->
+            <div class="document-header">
+                <img src="./js/paymentHistory/assets/header_logo.jpg">
+            </div>
 
             <p>
                 ${new Date().toLocaleDateString()}
             </p>
 
             <p>
-                ${memberName}<br>
-                ${memberAddress}
+                ${data.memberName}<br>
+                ${data.memberAddress}
             </p>
 
             <p>
@@ -48,24 +66,24 @@ export function buildLetter(records) {
 
             <p>
                 <strong>Re:</strong>
-                ${planId}
+                ${data.planId}
             </p>
 
             <p>
                 <strong>Plan Name:</strong>
-                ${planName}
+                ${data.planName}
             </p>
 
             <p>
-                Dear ${memberName}:
+                Dear ${data.memberName}:
             </p>
 
             <p>
                 This letter is in response to your recent request.
                 Below is the payment history from
-                ${earliest.toLocaleDateString()}
+                ${data.earliest.toLocaleDateString()}
                 to
-                ${latest.toLocaleDateString()}
+                ${data.latest.toLocaleDateString()}
                 of your plan.
             </p>
 
@@ -85,22 +103,38 @@ export function buildLetter(records) {
                 </tbody>
 
             </table>
-            <p></p>
-            <p>
-                If you have questions, you can visit
-                www.uhcmemberhub.com
-                or call 1-800-657-8205.
-            </p>
 
-            <p>
-                Sincerely,
-            </p>
+            <div class="closing">
 
-            <p>
-                Your Golden Rule Insurance Team
-            </p>
+                <p>
+                    If you have questions, you can visit
+                    www.uhcmemberhub.com
+                    or call 1-800-657-8205.
+                </p>
+
+                <p>
+                    Sincerely,
+                </p>
+
+                <p>
+                    Your Golden Rule Insurance Team
+                </p>
+
+            </div>
+
+            <!-- FOOTER -->
+            <div class="document-footer">
+                <div>
+                    Golden Rule Insurance Company Constituent Services
+                    PO Box 31343, Salt Lake City, UT 84131
+                </div>
+
+                <div>
+                    Phone: 1-800-657-8205,
+                    Website: uhcmemberhub.com
+                </div>
+            </div>
 
         </div>
     `;
-
 }

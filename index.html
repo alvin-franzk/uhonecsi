@@ -837,13 +837,13 @@
                                 <input id="paymentHistoryAddress" type="text" class="form-control"
                                     placeholder="Enter member address">
 
-                        <label for="paymentHistoryPlanID" class="form-label mt-2">Plan ID</label>
+                        <label for="paymentHistoryPlanID" class="form-label mt-2">Plan ID(s)</label>
                                 <input id="paymentHistoryPlanID" type="text" class="form-control"
-                                    placeholder="Enter plan ID">
+                                    placeholder="Enter plan ID, use commas if multiple">
 
-                        <label for="paymentHistoryPlanName" class="form-label mt-2">Plan Name</label>
+                        <label for="paymentHistoryPlanName" class="form-label mt-2">Plan Name(s)</label>
                                 <input id="paymentHistoryPlanName" type="text" class="form-control"
-                                    placeholder="Enter plan name">
+                                    placeholder="Enter plan name, use commas if multiple">
 
                         <label for="csvFile" class="form-label">
                             Upload CSV File
@@ -881,6 +881,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
         integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.4.0/dist/pdf-lib.min.js"></script>
     <script src="js/paymentHistory/lib/PapaParse-5.0.2/papaparse.min.js"></script>
     <script src="js/paymentHistory/app.js" type="module"></script>
 </body>

@@ -1,6 +1,12 @@
 import { parseCSV } from "./csvParser.js";
-import { buildLetter } from "./templateEngine.js";
+import {
+    buildLetter,
+    getLetterData
+}
+    from "./templateEngine.js";
 import { exportPDF } from "./pdfExporter.js";
+
+let currentRecords = [];
 
 document
     .getElementById("csvFile")
@@ -9,6 +15,7 @@ document
         if (!file) return;
         const records = await parseCSV(file);
         console.log("Records:", records);
+        currentRecords = records;
         generatePreview(records);
     });
 
@@ -24,4 +31,8 @@ function generatePreview(records) {
 
 document
     .getElementById("downloadPdfBtn")
-    .addEventListener("click", exportPDF);
+    .addEventListener("click", () => {
+        const letterData = getLetterData(currentRecords);
+        exportPDF(letterData);
+    });
+
